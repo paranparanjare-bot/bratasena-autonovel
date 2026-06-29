@@ -641,6 +641,14 @@ body.page-landing {
   color: var(--text-muted);
 }
 
+.novel-card-season {
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 4px;
+}
+
 .novel-card-meta {
   display: flex;
   gap: 6px;

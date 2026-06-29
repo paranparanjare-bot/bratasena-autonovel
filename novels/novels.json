@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-06-29T14:15:45.943151",
+  "generated": "2026-06-29T22:33:39.989822",
   "novels": [
     {
       "id": "bratasena",
@@ -15,6 +15,7 @@
           "season": "season-01",
           "name": "Warisan Berdarah",
           "path": "season-01",
+          "cover": "assets/bratasena/season-01.webp",
           "chapters": [
             {
               "num": 1,
@@ -142,6 +143,7 @@
           "season": "season-02",
           "name": "Bayang Naga",
           "path": "season-02",
+          "cover": "assets/bratasena/season-02.webp",
           "chapters": [
             {
               "num": 21,
@@ -269,6 +271,7 @@
           "season": "season-03",
           "name": "Kepala Naga Pertama",
           "path": "season-03",
+          "cover": "assets/bratasena/season-03.webp",
           "chapters": [
             {
               "num": 41,
@@ -396,6 +399,7 @@
           "season": "season-04",
           "name": "Api dari Timur",
           "path": "season-04",
+          "cover": "assets/bratasena/season-04.webp",
           "chapters": [
             {
               "num": 61,

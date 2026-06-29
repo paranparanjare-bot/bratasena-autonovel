@@ -8,5 +8,11 @@
     "season-02": "Bayang Naga",
     "season-03": "Kepala Naga Pertama",
     "season-04": "Api dari Timur"
+  },
+  "season_covers": {
+    "season-01": "assets/bratasena/season-01.webp",
+    "season-02": "assets/bratasena/season-02.webp",
+    "season-03": "assets/bratasena/season-03.webp",
+    "season-04": "assets/bratasena/season-04.webp"
   }
 }

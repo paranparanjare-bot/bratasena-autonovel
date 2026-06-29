@@ -112,11 +112,13 @@ def scan_novel(novel_dir):
             total_chapters += 1
 
         season_label = info.get('seasons', {}).get(season_dir.name, f"Season {season_num}")
+        season_cover = info.get('season_covers', {}).get(season_dir.name, None)
         
         seasons.append({
             "season": season_dir.name,
             "name": season_label,
             "path": season_dir.name,
+            "cover": season_cover,
             "chapters": chapters
         })
 

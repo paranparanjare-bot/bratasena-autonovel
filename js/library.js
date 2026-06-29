@@ -4,11 +4,8 @@
 
 const Library = (() => {
   let novels = [];
-  let dbUrl = '';
 
   function getDbUrl() {
-    // Automatically determine the base URL
-    const scripts = document.getElementsByTagName('script');
     const base = window.location.origin + window.location.pathname.replace(/\/[^/]*$/, '');
     return base.replace(/\/[^/]*$/, '') + '/novels/novels.json';
   }
@@ -24,7 +21,7 @@ const Library = (() => {
         return novels;
       } catch (e) {
         console.error('Failed to load novel database:', e);
-        // If fetching from relative path fails, try absolute from gh pages
+        // Fallback to absolute gh-pages path
         try {
           const ghUrl = 'https://paranparanjare-bot.github.io/bratasena-autonovel/novels/novels.json';
           const resp = await fetch(ghUrl);
@@ -40,7 +37,7 @@ const Library = (() => {
     },
 
     /**
-     * Render grid of novel cards
+     * Render grid of novel cards by mapping seasons to individual cards
      */
     renderGrid(novels, containerId = 'library-grid') {
       const container = document.getElementById(containerId);
@@ -60,32 +57,67 @@ const Library = (() => {
       }
 
       novels.forEach(novel => {
-        const card = document.createElement('a');
-        card.className = 'novel-card';
-        card.href = `reader.html?novel=${novel.id}`;
+        // If the novel has multiple seasons, render each season as its own card!
+        if (novel.seasons && novel.seasons.length > 0) {
+          novel.seasons.forEach(season => {
+            const card = document.createElement('a');
+            card.className = 'novel-card';
 
-        const coverUrl = novel.cover || '';
-        const coverHtml = coverUrl
-          ? `<img src="${coverUrl}" alt="${novel.title}" loading="lazy">`
-          : `<span class="no-cover">${novel.title.charAt(0)}</span>`;
+            // First chapter of this season
+            const firstChapNum = (season.chapters && season.chapters.length > 0)
+              ? season.chapters[0].num
+              : 1;
 
-        const seasons = novel.seasons ? novel.seasons.length : 0;
-        const totalChapters = novel.totalChapters || 0;
+            card.href = `reader.html?novel=${novel.id}&bab=${firstChapNum}`;
 
-        card.innerHTML = `
-          <div class="novel-card-cover">${coverHtml}</div>
-          <div class="novel-card-info">
-            <div class="novel-card-title">${novel.title}</div>
-            ${novel.author ? `<div class="novel-card-author">${novel.author}</div>` : ''}
-            <div class="novel-card-meta">
-              <span>${seasons} Season</span>
-              <span>${totalChapters} Bab</span>
-              ${novel.genre ? `<span>${novel.genre}</span>` : ''}
+            // Try season cover, fallback to main cover
+            const coverUrl = season.cover || novel.cover || '';
+            const coverHtml = coverUrl
+              ? `<img src="${coverUrl}" alt="${novel.title} - ${season.name}" loading="lazy">`
+              : `<span class="no-cover">${novel.title.charAt(0)}</span>`;
+
+            const totalChapters = season.chapters ? season.chapters.length : 0;
+
+            card.innerHTML = `
+              <div class="novel-card-cover">${coverHtml}</div>
+              <div class="novel-card-info">
+                <div class="novel-card-title">${novel.title}</div>
+                <div class="novel-card-season">${season.name}</div>
+                <div class="novel-card-meta">
+                  <span>${totalChapters} Bab</span>
+                  ${novel.genre ? `<span>${novel.genre}</span>` : ''}
+                </div>
+              </div>
+            `;
+
+            container.appendChild(card);
+          });
+        } else {
+          // Fallback rendering for single-season or flat novels
+          const card = document.createElement('a');
+          card.className = 'novel-card';
+          card.href = `reader.html?novel=${novel.id}`;
+
+          const coverUrl = novel.cover || '';
+          const coverHtml = coverUrl
+            ? `<img src="${coverUrl}" alt="${novel.title}" loading="lazy">`
+            : `<span class="no-cover">${novel.title.charAt(0)}</span>`;
+
+          const totalChapters = novel.totalChapters || 0;
+
+          card.innerHTML = `
+            <div class="novel-card-cover">${coverHtml}</div>
+            <div class="novel-card-info">
+              <div class="novel-card-title">${novel.title}</div>
+              <div class="novel-card-meta">
+                <span>${totalChapters} Bab</span>
+                ${novel.genre ? `<span>${novel.genre}</span>` : ''}
+              </div>
             </div>
-          </div>
-        `;
+          `;
 
-        container.appendChild(card);
+          container.appendChild(card);
+        }
       });
     },
 
@@ -97,10 +129,11 @@ const Library = (() => {
       const novels = await this.loadDatabase();
       this.renderGrid(novels);
 
-      // If logged in, show reading progress
+      // Show username if logged in
       if (Auth.isLoggedIn()) {
         const user = Auth.getCurrentUser();
-        document.querySelector('[data-auth="username"]').textContent = user.username;
+        const usernameEl = document.querySelector('[data-auth="username"]');
+        if (usernameEl) usernameEl.textContent = user.username;
       }
       App.updateAuthUI();
     },
