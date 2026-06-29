@@ -1,4 +1,12 @@
-*.tar.gz
-*.pyc
+# Bratasena Digital Library — .gitignore
+
+# Python
 __pycache__/
+*.pyc
+*.pyo
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Build script is a tool, not content — but keep it for future runs

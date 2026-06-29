@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#0a0a0f">
+  <title>Membaca — Bratasena</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== PROGRESS BAR ===== -->
+<div class="reader-progress">
+  <div class="reader-progress-bar" id="reader-progress-bar"></div>
+</div>
+
+<!-- ===== TOP BAR ===== -->
+<nav class="reader-topbar">
+  <a href="library.html" class="back-link">← Perpustakaan</a>
+  <div class="reader-topbar-title">
+    <strong id="reader-novel-title">Novel</strong>
+    <span id="reader-chapter-num">Bab 1</span>
+  </div>
+  <div class="reader-controls">
+    <button class="btn-icon" id="bookmark-btn" title="Bookmark" style="opacity:0.4;">🔖</button>
+    <button class="btn-icon" id="sidebar-toggle" title="Daftar Bab">☰</button>
+  </div>
+</nav>
+
+<!-- ===== SIDEBAR ===== -->
+<div class="sidebar-overlay" id="sidebar-overlay"></div>
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-header">
+    <h3 id="sidebar-novel-title">Bratasena</h3>
+    <p>Daftar Bab</p>
+    <button class="btn btn-ghost" id="sidebar-close" style="position:absolute;top:12px;right:12px;padding:4px 10px;">✕</button>
+  </div>
+  <div id="sidebar-chapter-list"></div>
+</div>
+
+<!-- ===== CONTROLS BAR (sticky below topbar) ===== -->
+<div style="position:fixed;top:56px;left:0;right:0;z-index:90;display:flex;align-items:center;justify-content:center;gap:8px;padding:6px 16px;background:rgba(10,10,15,0.8);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--border);">
+  <div class="font-size-controls">
+    <button class="btn-icon" id="font-decrease" title="Perkecil font">A−</button>
+    <span class="font-size-label" data-fontsize-label="16px">16px</span>
+    <button class="btn-icon" id="font-increase" title="Perbesar font">A+</button>
+  </div>
+  <div style="width:1px;height:20px;background:var(--border);margin:0 4px;"></div>
+  <button class="btn-icon" id="theme-toggle" title="Ganti tema (Dark/Sepia/Light)">◑</button>
+  <div style="width:1px;height:20px;background:var(--border);margin:0 4px;"></div>
+  <button class="btn btn-ghost" id="prev-chapter" disabled>← Sebelum</button>
+  <button class="btn btn-ghost" id="next-chapter" disabled>Lanjut →</button>
+</div>
+
+<!-- ===== READING CONTENT ===== -->
+<div class="page">
+  <div class="reader-content">
+    <div class="reader-chapter-header">
+      <div class="reader-chapter-number" id="reader-chapter-num">Bab 1</div>
+      <h1 class="reader-chapter-title" id="reader-chapter-title">Memuat...</h1>
+    </div>
+    <div id="reader-body" class="reader-body">
+      <div class="loading">Memuat bab...</div>
+    </div>
+
+    <!-- Bottom chapter navigation -->
+    <div class="chapter-nav">
+      <button class="btn btn-outline" id="prev-chapter-bottom" onclick="Reader.goToChapter(-1)">← Bab Sebelumnya</button>
+      <button class="btn btn-gold" id="next-chapter-bottom" onclick="Reader.goToChapter(1)">Bab Selanjutnya →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== NOTIFICATION CONTAINER ===== -->
+<div id="notification-container"></div>
+
+<!-- ===== SCRIPTS ===== -->
+<script src="js/auth.js"></script>
+<script src="js/app.js"></script>
+<script src="js/reader.js"></script>
+</body>
+</html>

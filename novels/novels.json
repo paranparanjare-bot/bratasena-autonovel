@@ -1,0 +1,525 @@
+{
+  "version": "1.0",
+  "generated": "2026-06-29T10:10:32.886299",
+  "novels": [
+    {
+      "id": "bratasena",
+      "title": "Bratasena — Tahta Darah",
+      "author": "paranparanjare-bot",
+      "description": "Baskoro Haryo Bratasena, pengacara kepailitan di Jakarta, terseret ke pusaran perebutan kerajaan rokok keluarga setelah kematian ayahnya. Dari Kediri hingga Singapura—drama bisnis, keluarga, dan thriller korporat.",
+      "genre": "Drama Bisnis, Thriller Korporat",
+      "cover": null,
+      "totalChapters": 80,
+      "seasons": [
+        {
+          "season": "season-01",
+          "name": "Warisan Berdarah",
+          "path": "season-01",
+          "chapters": [
+            {
+              "num": 1,
+              "title": "BAB 01: KEBANGKITAN DARI JALANAN",
+              "file": "bratasena-s1-bab01.txt",
+              "path": "bratasena/season-01/bratasena-s1-bab01.txt"
+            },
+            {
+              "num": 2,
+              "title": "BAB 02: MOMENTUM DAN MANIPULASI",
+              "file": "bratasena-s1-bab02.txt",
+              "path": "bratasena/season-01/bratasena-s1-bab02.txt"
+            },
+            {
+              "num": 3,
+              "title": "BAB 03: PETANI DAN PERJANJIAN",
+              "file": "bratasena-s1-bab03.txt",
+              "path": "bratasena/season-01/bratasena-s1-bab03.txt"
+            },
+            {
+              "num": 4,
+              "title": "BAB 04: INSPEKSI DAN INTIMIDASI",
+              "file": "bratasena-s1-bab04.txt",
+              "path": "bratasena/season-01/bratasena-s1-bab04.txt"
+            },
+            {
+              "num": 5,
+              "title": "BAB 05: MESIN DAN MANIPULASI",
+              "file": "bratasena-s1-bab05.txt",
+              "path": "bratasena/season-01/bratasena-s1-bab05.txt"
+            },
+            {
+              "num": 6,
+              "title": "BAB 06: KEBAKARAN DAN CHAOS",
+              "file": "bratasena-s1-bab06.txt",
+              "path": "bratasena/season-01/bratasena-s1-bab06.txt"
+            },
+            {
+              "num": 7,
+              "title": "BAB 07: PEMERASAN DAN NEGOSIASI",
+              "file": "bratasena-s1-bab07.txt",
+              "path": "bratasena/season-01/bratasena-s1-bab07.txt"
+            },
+            {
+              "num": 8,
+              "title": "BAB 08: ALIANSI DAN KETAKUTAN",
+              "file": "bratasena-s1-bab08.txt",
+              "path": "bratasena/season-01/bratasena-s1-bab08.txt"
+            },
+            {
+              "num": 9,
+              "title": "BAB 09: KUNCI DAN KEBENARAN",
+              "file": "bratasena-s1-bab09.txt",
+              "path": "bratasena/season-01/bratasena-s1-bab09.txt"
+            },
+            {
+              "num": 10,
+              "title": "BAB 10: RUPS - DARAH DI ATAS KERTAS",
+              "file": "bratasena-s1-bab10.txt",
+              "path": "bratasena/season-01/bratasena-s1-bab10.txt"
+            },
+            {
+              "num": 11,
+              "title": "BAB 11: INVESTIGASI DI BAWAH TEKANAN",
+              "file": "bratasena-s1-bab11.txt",
+              "path": "bratasena/season-01/bratasena-s1-bab11.txt"
+            },
+            {
+              "num": 12,
+              "title": "BAB 12: JEJAK RACUN KEDUA",
+              "file": "bratasena-s1-bab12.txt",
+              "path": "bratasena/season-01/bratasena-s1-bab12.txt"
+            },
+            {
+              "num": 13,
+              "title": "BAB 13: BARA DALAM GUDANG",
+              "file": "bratasena-s1-bab13.txt",
+              "path": "bratasena/season-01/bratasena-s1-bab13.txt"
+            },
+            {
+              "num": 14,
+              "title": "BAB 14: API MEMILIH PEMILIK",
+              "file": "bratasena-s1-bab14.txt",
+              "path": "bratasena/season-01/bratasena-s1-bab14.txt"
+            },
+            {
+              "num": 15,
+              "title": "BAB 15: ELIMINASI SAKSI",
+              "file": "bratasena-s1-bab15.txt",
+              "path": "bratasena/season-01/bratasena-s1-bab15.txt"
+            },
+            {
+              "num": 16,
+              "title": "BAB 16: PILIHAN SANG PENDEKAR",
+              "file": "bratasena-s1-bab16.txt",
+              "path": "bratasena/season-01/bratasena-s1-bab16.txt"
+            },
+            {
+              "num": 17,
+              "title": "BAB 17: RUNTUHNYA KERAJAAN KERTAS",
+              "file": "bratasena-s1-bab17.txt",
+              "path": "bratasena/season-01/bratasena-s1-bab17.txt"
+            },
+            {
+              "num": 18,
+              "title": "BAB 18: MALAM TERPANJANG DI KEDIRI",
+              "file": "bratasena-s1-bab18.txt",
+              "path": "bratasena/season-01/bratasena-s1-bab18.txt"
+            },
+            {
+              "num": 19,
+              "title": "BAB 19: MATA GANTI MATA",
+              "file": "bratasena-s1-bab19.txt",
+              "path": "bratasena/season-01/bratasena-s1-bab19.txt"
+            },
+            {
+              "num": 20,
+              "title": "BAB 20: AKHIR DAN AWAL",
+              "file": "bratasena-s1-bab20.txt",
+              "path": "bratasena/season-01/bratasena-s1-bab20.txt"
+            }
+          ]
+        },
+        {
+          "season": "season-02",
+          "name": "Bayang Naga",
+          "path": "season-02",
+          "chapters": [
+            {
+              "num": 21,
+              "title": "BAB 21: KARTEL BAMBU RUNCI",
+              "file": "bratasena-s2-bab21.txt",
+              "path": "bratasena/season-02/bratasena-s2-bab21.txt"
+            },
+            {
+              "num": 22,
+              "title": "BAB 22: JEJAK DI BALIK LAUTAN",
+              "file": "bratasena-s2-bab22.txt",
+              "path": "bratasena/season-02/bratasena-s2-bab22.txt"
+            },
+            {
+              "num": 23,
+              "title": "BAB 23: SAUDARA DARAH",
+              "file": "bratasena-s2-bab23.txt",
+              "path": "bratasena/season-02/bratasena-s2-bab23.txt"
+            },
+            {
+              "num": 24,
+              "title": "BAB 24: AKUNTAN TANPA NAMA",
+              "file": "bratasena-s2-bab24.txt",
+              "path": "bratasena/season-02/bratasena-s2-bab24.txt"
+            },
+            {
+              "num": 25,
+              "title": "BAB 25: LANGKAH PERTAMA DI PAPAN CATUR",
+              "file": "bratasena-s2-bab25.txt",
+              "path": "bratasena/season-02/bratasena-s2-bab25.txt"
+            },
+            {
+              "num": 26,
+              "title": "BAB 26: BISIKAN DARI SURABAYA",
+              "file": "bratasena-s2-bab26.txt",
+              "path": "bratasena/season-02/bratasena-s2-bab26.txt"
+            },
+            {
+              "num": 27,
+              "title": "BAB 27: JEBAKAN DI BALIK PINTU BAJA",
+              "file": "bratasena-s2-bab27.txt",
+              "path": "bratasena/season-02/bratasena-s2-bab27.txt"
+            },
+            {
+              "num": 28,
+              "title": "BAB 28: UJIAN LOYALITAS",
+              "file": "bratasena-s2-bab28.txt",
+              "path": "bratasena/season-02/bratasena-s2-bab28.txt"
+            },
+            {
+              "num": 29,
+              "title": "BAB 29: GERAKAN BAWAH TANAH",
+              "file": "bratasena-s2-bab29.txt",
+              "path": "bratasena/season-02/bratasena-s2-bab29.txt"
+            },
+            {
+              "num": 30,
+              "title": "BAB 30: TAWANAN DI MENARA GADING",
+              "file": "bratasena-s2-bab30.txt",
+              "path": "bratasena/season-02/bratasena-s2-bab30.txt"
+            },
+            {
+              "num": 31,
+              "title": "BAB 31: PENERBANGAN KE NEGARA KACA",
+              "file": "bratasena-s2-bab31.txt",
+              "path": "bratasena/season-02/bratasena-s2-bab31.txt"
+            },
+            {
+              "num": 32,
+              "title": "BAB 32: PETI BESI TERAKHIR",
+              "file": "bratasena-s2-bab32.txt",
+              "path": "bratasena/season-02/bratasena-s2-bab32.txt"
+            },
+            {
+              "num": 33,
+              "title": "BAB 33: TAWARAN YANG TIDAK MUNGKIN",
+              "file": "bratasena-s2-bab33.txt",
+              "path": "bratasena/season-02/bratasena-s2-bab33.txt"
+            },
+            {
+              "num": 34,
+              "title": "BAB 34: BAYANG-BAYANG MASA LALU",
+              "file": "bratasena-s2-bab34.txt",
+              "path": "bratasena/season-02/bratasena-s2-bab34.txt"
+            },
+            {
+              "num": 35,
+              "title": "BAB 35: DUEL DI RESTORAN GARUDA",
+              "file": "bratasena-s2-bab35.txt",
+              "path": "bratasena/season-02/bratasena-s2-bab35.txt"
+            },
+            {
+              "num": 36,
+              "title": "BAB 36: KEPUTUSAN DI KAKI GUNUNG",
+              "file": "bratasena-s2-bab36.txt",
+              "path": "bratasena/season-02/bratasena-s2-bab36.txt"
+            },
+            {
+              "num": 37,
+              "title": "BAB 37: MALAM PEMBAKARAN",
+              "file": "bratasena-s2-bab37.txt",
+              "path": "bratasena/season-02/bratasena-s2-bab37.txt"
+            },
+            {
+              "num": 38,
+              "title": "BAB 38: SANG PENCEKIK",
+              "file": "bratasena-s2-bab38.txt",
+              "path": "bratasena/season-02/bratasena-s2-bab38.txt"
+            },
+            {
+              "num": 39,
+              "title": "BAB 39: ULAR MENYEMBUR RACUN",
+              "file": "bratasena-s2-bab39.txt",
+              "path": "bratasena/season-02/bratasena-s2-bab39.txt"
+            },
+            {
+              "num": 40,
+              "title": "BAB 40: AKHIR DAN JANJI",
+              "file": "bratasena-s2-bab40.txt",
+              "path": "bratasena/season-02/bratasena-s2-bab40.txt"
+            }
+          ]
+        },
+        {
+          "season": "season-03",
+          "name": "Kepala Naga Pertama",
+          "path": "season-03",
+          "chapters": [
+            {
+              "num": 41,
+              "title": "BAB 41: WARISAN YANG TERBELAH",
+              "file": "bratasena-s3-bab41.txt",
+              "path": "bratasena/season-03/bratasena-s3-bab41.txt"
+            },
+            {
+              "num": 42,
+              "title": "BAB 42: PEMECAH SANDI",
+              "file": "bratasena-s3-bab42.txt",
+              "path": "bratasena/season-03/bratasena-s3-bab42.txt"
+            },
+            {
+              "num": 43,
+              "title": "BAB 43: KUNJUNGAN KE SEL TAHANAN",
+              "file": "bratasena-s3-bab43.txt",
+              "path": "bratasena/season-03/bratasena-s3-bab43.txt"
+            },
+            {
+              "num": 44,
+              "title": "BAB 44: ALIANSI YANG TERPAKSA",
+              "file": "bratasena-s3-bab44.txt",
+              "path": "bratasena/season-03/bratasena-s3-bab44.txt"
+            },
+            {
+              "num": 45,
+              "title": "BAB 45: PENYUSUP MALAM",
+              "file": "bratasena-s3-bab45.txt",
+              "path": "bratasena/season-03/bratasena-s3-bab45.txt"
+            },
+            {
+              "num": 46,
+              "title": "BAB 46: AKUNTAN ULAR",
+              "file": "bratasena-s3-bab46.txt",
+              "path": "bratasena/season-03/bratasena-s3-bab46.txt"
+            },
+            {
+              "num": 47,
+              "title": "BAB 47: SANG PERANTARA",
+              "file": "bratasena-s3-bab47.txt",
+              "path": "bratasena/season-03/bratasena-s3-bab47.txt"
+            },
+            {
+              "num": 48,
+              "title": "BAB 48: PENOLAKAN DI ATAS MEJA",
+              "file": "bratasena-s3-bab48.txt",
+              "path": "bratasena/season-03/bratasena-s3-bab48.txt"
+            },
+            {
+              "num": 49,
+              "title": "BAB 49: TEROR DI SAWAH CENGKEH",
+              "file": "bratasena-s3-bab49.txt",
+              "path": "bratasena/season-03/bratasena-s3-bab49.txt"
+            },
+            {
+              "num": 50,
+              "title": "BAB 50: JEBAKAN LIKUIDITAS",
+              "file": "bratasena-s3-bab50.txt",
+              "path": "bratasena/season-03/bratasena-s3-bab50.txt"
+            },
+            {
+              "num": 51,
+              "title": "BAB 51: PERTEMUAN DENGAN MUSUH LAMA",
+              "file": "bratasena-s3-bab51.txt",
+              "path": "bratasena/season-03/bratasena-s3-bab51.txt"
+            },
+            {
+              "num": 52,
+              "title": "BAB 52: RAHASIA BAMBANG",
+              "file": "bratasena-s3-bab52.txt",
+              "path": "bratasena/season-03/bratasena-s3-bab52.txt"
+            },
+            {
+              "num": 53,
+              "title": "BAB 53: PERETASAN SERVER UTAMA",
+              "file": "bratasena-s3-bab53.txt",
+              "path": "bratasena/season-03/bratasena-s3-bab53.txt"
+            },
+            {
+              "num": 54,
+              "title": "BAB 54: BUKTI YANG HILANG",
+              "file": "bratasena-s3-bab54.txt",
+              "path": "bratasena/season-03/bratasena-s3-bab54.txt"
+            },
+            {
+              "num": 55,
+              "title": "BAB 55: KONFRONTASI DI PELABUHAN",
+              "file": "bratasena-s3-bab55.txt",
+              "path": "bratasena/season-03/bratasena-s3-bab55.txt"
+            },
+            {
+              "num": 56,
+              "title": "BAB 56: ANCAMAN TERAKHIR",
+              "file": "bratasena-s3-bab56.txt",
+              "path": "bratasena/season-03/bratasena-s3-bab56.txt"
+            },
+            {
+              "num": 57,
+              "title": "BAB 57: MASUK KE SARANG NAGA",
+              "file": "bratasena-s3-bab57.txt",
+              "path": "bratasena/season-03/bratasena-s3-bab57.txt"
+            },
+            {
+              "num": 58,
+              "title": "BAB 58: PENGAKUAN WILLIAM",
+              "file": "bratasena-s3-bab58.txt",
+              "path": "bratasena/season-03/bratasena-s3-bab58.txt"
+            },
+            {
+              "num": 59,
+              "title": "BAB 59: RUNTUHNYA MENARA",
+              "file": "bratasena-s3-bab59.txt",
+              "path": "bratasena/season-03/bratasena-s3-bab59.txt"
+            },
+            {
+              "num": 60,
+              "title": "BAB 60: AKHIR DAN AWAL",
+              "file": "bratasena-s3-bab60.txt",
+              "path": "bratasena/season-03/bratasena-s3-bab60.txt"
+            }
+          ]
+        },
+        {
+          "season": "season-04",
+          "name": "Api dari Timur",
+          "path": "season-04",
+          "chapters": [
+            {
+              "num": 61,
+              "title": "BAB 61: SURAT DARI UJUNG JEMBATAN",
+              "file": "bratasena-s4-bab061.txt",
+              "path": "bratasena/season-04/bratasena-s4-bab061.txt"
+            },
+            {
+              "num": 62,
+              "title": "BAB 62: SANG NAGA YANG SEKARAT",
+              "file": "bratasena-s4-bab062.txt",
+              "path": "bratasena/season-04/bratasena-s4-bab062.txt"
+            },
+            {
+              "num": 63,
+              "title": "BAB 63: LING",
+              "file": "bratasena-s4-bab063.txt",
+              "path": "bratasena/season-04/bratasena-s4-bab063.txt"
+            },
+            {
+              "num": 64,
+              "title": "BAB 64: ULAR BERMATA BIRU",
+              "file": "bratasena-s4-bab064.txt",
+              "path": "bratasena/season-04/bratasena-s4-bab064.txt"
+            },
+            {
+              "num": 65,
+              "title": "BAB 65: BISIKAN TERAKHIR SANG NAGA",
+              "file": "bratasena-s4-bab065.txt",
+              "path": "bratasena/season-04/bratasena-s4-bab065.txt"
+            },
+            {
+              "num": 66,
+              "title": "BAB 66: TAMU TAK DIUNDANG",
+              "file": "bratasena-s4-bab066.txt",
+              "path": "bratasena/season-04/bratasena-s4-bab066.txt"
+            },
+            {
+              "num": 67,
+              "title": "BAB 67: PELURU DI MALAM HARI",
+              "file": "bratasena-s4-bab067.txt",
+              "path": "bratasena/season-04/bratasena-s4-bab067.txt"
+            },
+            {
+              "num": 68,
+              "title": "BAB 68: MUSUH DI DALAM SELIMUT",
+              "file": "bratasena-s4-bab068.txt",
+              "path": "bratasena/season-04/bratasena-s4-bab068.txt"
+            },
+            {
+              "num": 69,
+              "title": "BAB 69: PENGKHIANATAN BERBALUT RENDA",
+              "file": "bratasena-s4-bab069.txt",
+              "path": "bratasena/season-04/bratasena-s4-bab069.txt"
+            },
+            {
+              "num": 70,
+              "title": "BAB 70: LANGKAH DI ATAS ES TIPIS",
+              "file": "bratasena-s4-bab070.txt",
+              "path": "bratasena/season-04/bratasena-s4-bab070.txt"
+            },
+            {
+              "num": 71,
+              "title": "BAB 71: TUSUK DARI BELAKANG",
+              "file": "bratasena-s4-bab071.txt",
+              "path": "bratasena/season-04/bratasena-s4-bab071.txt"
+            },
+            {
+              "num": 72,
+              "title": "BAB 72: RUNTUHNYA MENARA KEDIRI",
+              "file": "bratasena-s4-bab072.txt",
+              "path": "bratasena/season-04/bratasena-s4-bab072.txt"
+            },
+            {
+              "num": 73,
+              "title": "BAB 73: DUA PIALA YANG SAMA",
+              "file": "bratasena-s4-bab073.txt",
+              "path": "bratasena/season-04/bratasena-s4-bab073.txt"
+            },
+            {
+              "num": 74,
+              "title": "BAB 74: PELARIAN KE AKAR",
+              "file": "bratasena-s4-bab074.txt",
+              "path": "bratasena/season-04/bratasena-s4-bab074.txt"
+            },
+            {
+              "num": 75,
+              "title": "BAB 75: ULAR TUA BERBICARA",
+              "file": "bratasena-s4-bab075.txt",
+              "path": "bratasena/season-04/bratasena-s4-bab075.txt"
+            },
+            {
+              "num": 76,
+              "title": "BAB 76: PERANG DARI GUBUK BAMBU",
+              "file": "bratasena-s4-bab076.txt",
+              "path": "bratasena/season-04/bratasena-s4-bab076.txt"
+            },
+            {
+              "num": 77,
+              "title": "BAB 77: KEJATUHAN RAYMOND & CITRA",
+              "file": "bratasena-s4-bab077.txt",
+              "path": "bratasena/season-04/bratasena-s4-bab077.txt"
+            },
+            {
+              "num": 78,
+              "title": "BAB 78: GENGGAMAN DI SENJA KEDIRI",
+              "file": "bratasena-s4-bab078.txt",
+              "path": "bratasena/season-04/bratasena-s4-bab078.txt"
+            },
+            {
+              "num": 79,
+              "title": "BAB 79: KOTAK DARI MASA LALU",
+              "file": "bratasena-s4-bab079.txt",
+              "path": "bratasena/season-04/bratasena-s4-bab079.txt"
+            },
+            {
+              "num": 80,
+              "title": "BAB 80: PINTU MENUJU TOKYO",
+              "file": "bratasena-s4-bab080.txt",
+              "path": "bratasena/season-04/bratasena-s4-bab080.txt"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

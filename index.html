@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#0a0a0f">
+  <meta name="description" content="Bratasena — Tahta Darah. Novel fiksi 4 season. Drama bisnis, keluarga, thriller korporat.">
+  <title>Bratasena — Perpustakaan Digital</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Auth buttons on the hero image itself — positioned absolutely */
+    .hero-auth {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      z-index: 10;
+      display: flex;
+      gap: 8px;
+    }
+    .hero-auth .btn {
+      padding: 8px 16px;
+      font-size: 0.8rem;
+    }
+    @media (min-width: 768px) {
+      .hero-auth { top: 20px; right: 24px; }
+      .hero-auth .btn { padding: 10px 22px; font-size: 0.85rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ===== AUTH MODAL ===== -->
+<div class="modal-overlay" id="auth-modal">
+  <div class="modal">
+    <button class="modal-close" onclick="App.closeModal('auth-modal')">&times;</button>
+    <div class="modal-title" id="auth-modal-title">Masuk</div>
+    <div class="modal-subtitle" id="auth-modal-subtitle">Silakan masuk untuk melanjutkan membaca</div>
+
+    <div class="modal-device-warning">
+      <span class="icon">🔐</span>
+      <span><strong>Akun tersimpan di perangkat ini saja.</strong> Data tidak disinkronkan ke server. Jika berganti HP atau menghapus data browser, Anda harus daftar ulang. Gunakan nama pengguna dan kata sandi yang mudah diingat.</span>
+    </div>
+
+    <div id="auth-form">
+      <div class="form-group">
+        <label for="auth-username">Nama Pengguna</label>
+        <input type="text" id="auth-username" placeholder="cth: baskoro" autocomplete="off">
+        <div class="form-error" id="auth-username-error"></div>
+      </div>
+      <div class="form-group">
+        <label for="auth-password">Kata Sandi</label>
+        <input type="password" id="auth-password" placeholder="Minimal 4 karakter" autocomplete="off">
+        <div class="form-error" id="auth-password-error"></div>
+      </div>
+      <button class="btn btn-gold form-submit" id="auth-submit">Masuk</button>
+    </div>
+
+    <div class="form-toggle" id="auth-toggle">
+      Belum punya akun? <a id="auth-switch">Daftar di sini</a>
+    </div>
+  </div>
+</div>
+
+<!-- ===== HERO / LANDING ===== -->
+<section class="hero">
+  <!-- IMAGE SLOT: Ganti src dengan gambar 9:16 yang kamu buat -->
+  <img class="hero-image" id="hero-image" src="" alt="Meja kerja klasik" style="display:none;">
+  <div class="hero-image-placeholder" id="hero-placeholder">
+    <div class="placeholder-icon">
+      🏛️<br>
+      <span style="font-size:1rem;display:block;margin-top:12px;font-family:var(--font-ui);letter-spacing:2px;opacity:0.3;">Image Slot 9:16</span>
+    </div>
+  </div>
+
+  <!-- Auth buttons on hero -->
+  <div class="hero-auth" data-auth="logged-out">
+    <button class="btn btn-outline" onclick="App.openModal('auth-modal')">Daftar</button>
+    <button class="btn btn-gold" onclick="App.openModal('auth-modal')">Masuk</button>
+  </div>
+  <div class="hero-auth" data-auth="logged-in" style="display:none;">
+    <span style="color:var(--text-secondary);font-family:var(--font-ui);font-size:0.83rem;display:flex;align-items:center;gap:6px;">
+      👤 <span data-auth="username"></span>
+    </span>
+    <button class="btn btn-ghost" onclick="Auth.logout();location.reload();">Keluar</button>
+    <a href="library.html" class="btn btn-gold">Perpustakaan</a>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-badge">Novel 4 Season</div>
+    <h1 class="hero-title">Bratasena</h1>
+    <p class="hero-subtitle">— Tahta Darah —</p>
+    <p class="hero-tagline">Warisan • Intrik • Harga Kesetiaan</p>
+    
+    <div class="hero-actions" data-auth="logged-out">
+      <button class="btn btn-gold" onclick="App.openModal('auth-modal')">Mulai Membaca</button>
+      <a href="library.html" class="btn btn-outline">Lihat Perpustakaan</a>
+    </div>
+    <div class="hero-actions" data-auth="logged-in" style="display:none;">
+      <a href="library.html" class="btn btn-gold">Lanjut Membaca</a>
+    </div>
+  </div>
+
+  <div class="hero-footer">
+    <p class="scroll-hint">⌄ Geser ke bawah ⌄</p>
+  </div>
+</section>
+
+<!-- ===== ABOUT SECTION ===== -->
+<section class="about-section">
+  <h2>Tentang Bratasena</h2>
+  <p>
+    Baskoro Haryo Bratasena — seorang pengacara kepailitan di Jakarta — 
+    terseret ke pusaran perebutan kerajaan rokok keluarga setelah kematian ayahnya. 
+    Dari akar tanah Kediri hingga menara kaca SCBD Jakarta, 
+    dari gang-gang Semarang hingga ke sarang naga di Singapura.
+  </p>
+  <p style="margin-top:12px;color:var(--text-muted);font-style:italic;">
+    Drama bisnis, keluarga, dan thriller korporat yang mengikat dari bab pertama hingga akhir.
+  </p>
+
+  <div class="stats-row">
+    <div class="stat-item">
+      <span class="stat-number">4</span>
+      <span class="stat-label">Season</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">80</span>
+      <span class="stat-label">Bab</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">8</span>
+      <span class="stat-label">Tokoh Utama</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">3</span>
+      <span class="stat-label">Kota</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <p>Bratasena — Tahta Darah &copy; 2026</p>
+  <p style="margin-top:4px;">Ditulis oleh <strong>paranparanjare-bot</strong> via Hermes Agent</p>
+  <p style="margin-top:8px;font-size:0.7rem;">
+    <a href="https://github.com/paranparanjare-bot/bratasena-autonovel" target="_blank">GitHub</a>
+  </p>
+</footer>
+
+<!-- ===== NOTIFICATION CONTAINER ===== -->
+<div id="notification-container"></div>
+
+<!-- ===== SCRIPTS ===== -->
+<script src="js/auth.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
