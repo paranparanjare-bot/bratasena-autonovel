@@ -62,6 +62,21 @@
         width: 100%;
       }
     }
+
+    /* Modal styling overrides for text content */
+    .modal-body-scrollable {
+      max-height: 250px;
+      overflow-y: auto;
+      font-family: var(--font-ui);
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      padding-right: 8px;
+      margin-top: 16px;
+    }
+    .modal-body-scrollable p {
+      margin-bottom: 12px;
+    }
   </style>
 </head>
 <body class="page-landing">
@@ -74,27 +89,43 @@
     <div class="modal-subtitle" id="auth-modal-subtitle">Silakan masuk untuk melanjutkan membaca</div>
 
     <div class="modal-device-warning">
-      <span class="icon">🔐</span>
       <span><strong>Akun tersimpan di perangkat ini saja.</strong> Data tidak disinkronkan ke server. Jika berganti HP atau menghapus data browser, Anda harus daftar ulang. Gunakan nama pengguna dan kata sandi yang mudah diingat.</span>
     </div>
 
     <div id="auth-form">
       <div class="form-group">
         <label for="auth-username">Nama Pengguna</label>
-        <input type="text" id="auth-username" placeholder="cth: baskoro" autocomplete="off">
+        <input type="text" id="auth-username" placeholder="Nama pengguna" autocomplete="off">
         <div class="form-error" id="auth-username-error"></div>
       </div>
       <div class="form-group">
         <label for="auth-password">Kata Sandi</label>
-        <input type="password" id="auth-password" placeholder="Minimal 4 karakter" autocomplete="off">
+        <input type="password" id="auth-password" placeholder="Kata sandi" autocomplete="off">
         <div class="form-error" id="auth-password-error"></div>
       </div>
-      <button class="btn btn-gold form-submit" id="auth-submit">Masuk</button>
+      <button class="btn form-submit" id="auth-submit" style="background:#ffffff; color:#0a0a0f;">Masuk</button>
     </div>
 
     <div class="form-toggle" id="auth-toggle">
       Belum punya akun? <a id="auth-switch">Daftar di sini</a>
     </div>
+  </div>
+</div>
+
+<!-- ===== DISCLAIMER MODAL ===== -->
+<div class="modal-overlay" id="disclaimer-modal">
+  <div class="modal" style="max-width: 450px;">
+    <button class="modal-close" onclick="App.closeModal('disclaimer-modal')">&times;</button>
+    <div class="modal-title" style="font-size: 1.3rem;">Pernyataan Penyangkalan</div>
+    <div class="modal-subtitle" style="margin-bottom: 0;">Disclaimer Hukum & Kontinuitas Cerita</div>
+    
+    <div class="modal-body-scrollable">
+      <p>Seluruh karya fiksi yang dipublikasikan dalam platform ini, termasuk namun tidak terbatas pada karakter, nama tokoh, latar belakang keluarga, organisasi, nama perusahaan, peristiwa hukum, intrik bisnis, serta lokasi kejadian, adalah murni hasil rekaan dan imajinasi penulis.</p>
+      <p>Segala bentuk kemiripan atau kesamaan nama tokoh, jabatan, nama korporasi, alur persaingan bisnis, maupun detail peristiwa dengan kondisi nyata di dunia riil—baik di masa lalu, masa kini, maupun masa depan, serta baik yang menyangkut tokoh yang masih hidup maupun yang telah tiada—merupakan kebetulan semata dan sama sekali tidak merefleksikan kebenaran faktual.</p>
+      <p>Isi dari cerita ini tidak ditujukan untuk menyudutkan, mencemarkan nama baik, atau mengasosiasikan diri dengan individu, institusi pemerintah, aparat penegak hukum, partai politik, maupun entitas bisnis tertentu dalam realitas kehidupan nyata.</p>
+    </div>
+    
+    <button class="btn btn-ghost form-submit" onclick="App.closeModal('disclaimer-modal')" style="margin-top: 20px; width: 100%;">Tutup</button>
   </div>
 </div>
 
@@ -106,26 +137,25 @@
   <!-- Auth buttons on hero -->
   <div class="hero-auth" data-auth="logged-out">
     <button class="btn btn-outline" onclick="App.openModal('auth-modal')">Daftar</button>
-    <button class="btn btn-gold" onclick="App.openModal('auth-modal')">Masuk</button>
+    <button class="btn" onclick="App.openModal('auth-modal')">Masuk</button>
   </div>
   <div class="hero-auth" data-auth="logged-in" style="display:none;">
-    <span style="color:var(--text-secondary);font-family:var(--font-ui);font-size:0.83rem;display:flex;align-items:center;gap:6px;margin-right:8px;">
-      👤 <span data-auth="username"></span>
+    <span style="color:rgba(255, 255, 255, 0.7);font-family:var(--font-ui);font-size:0.83rem;display:flex;align-items:center;margin-right:8px;">
+      User: <span data-auth="username" style="margin-left: 4px; color:#ffffff; font-weight:500;"></span>
     </span>
     <button class="btn btn-ghost" onclick="Auth.logout();location.reload();">Keluar</button>
   </div>
 
   <div class="hero-content">
-    <!-- Teks Bratasena dihapus, langsung tombol aksi di bawah logo motjo gambar -->
     <div class="hero-actions">
-      <a href="library.html" class="btn btn-gold">📚 Perpustakaan</a>
-      <a href="https://wa.me/62895428301010" target="_blank" class="btn btn-outline">💬 Hubungi Kami</a>
+      <a href="library.html" class="btn">Perpustakaan</a>
+      <a href="https://wa.me/62895428301010" target="_blank" class="btn btn-outline">Hubungi Kami</a>
     </div>
   </div>
 
   <!-- FLOATING COPYRIGHT FOOTER -->
   <div class="hero-footer-copyright">
-    &copy; 2026 <a href="mailto:paranparanjare@gmail.com">ekosetyobudi</a>. All rights reserved.
+    &copy; 2026 <a href="mailto:paranparanjare@gmail.com">ekosetyobudi</a> &bull; <a onclick="App.openModal('disclaimer-modal')">Disclaimer</a>
   </div>
 </section>
 

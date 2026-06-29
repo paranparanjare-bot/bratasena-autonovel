@@ -312,6 +312,55 @@ body.page-landing {
   font-size: 1rem;
 }
 
+/* ===== BUTTONS OVERRIDES FOR LANDING (GLASSMORPHISM) ===== */
+.page-landing .btn {
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
+.page-landing .btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: #ffffff;
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+}
+
+.page-landing .btn-outline {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.page-landing .btn-outline:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.page-landing .btn-ghost {
+  border-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
+}
+.page-landing .btn-ghost:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Modals on landing page */
+.page-landing .modal {
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(18, 18, 26, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
 /* Landing Page Floating Footer */
 .hero-footer-copyright {
   position: absolute;
@@ -322,16 +371,19 @@ body.page-landing {
   text-align: center;
   font-family: var(--font-ui);
   font-size: 0.72rem;
-  color: var(--text-muted);
+  color: rgba(255, 255, 255, 0.4);
   width: 90%;
+  letter-spacing: 0.5px;
 }
 
 .hero-footer-copyright a {
-  color: var(--gold-dim);
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: underline;
+  cursor: pointer;
   transition: color 0.3s;
 }
 .hero-footer-copyright a:hover {
-  color: var(--gold);
+  color: #ffffff;
 }
 
 /* Auth buttons on hero */
