@@ -1,6 +1,6 @@
-# BAB 64: ULAR BERMATA BIRU
+BAB 64: ULAR BERMATA BIRU
 
-## Kantor Pusat Dragon Pacific, Raffles Place, Singapura — Pagi
+Kantor Pusat Dragon Pacific, Raffles Place, Singapura — Pagi
 
 Gedung Dragon Pacific berdiri di jantung distrik keuangan Singapura — bukan pencakar langit tertinggi di Raffles Place, tapi cukup menjulang untuk membuat siapa pun yang memandang dari bawah merasa kecil. Fasad kaca biru gelapnya memantulkan langit pagi yang cerah. Di pintu masuk, dua patung singa batu gaya Tionghoa berjaga di kiri dan kanan — mulut terbuka, mata melotot, seolah siap menelan siapa pun yang datang dengan niat buruk.
 
@@ -32,7 +32,7 @@ Ia tertawa. Baskoro tersenyum tipis. Kirana diam.
 
 ---
 
-## Tur Gedung
+Tur Gedung
 
 Raymond memandu mereka berkeliling gedung — ruang trading, lantai logistik, pusat data — dengan semangat seorang pemandu wisata yang bangga akan semua pencapaiannya.
 
@@ -52,7 +52,7 @@ Kirana tahu ancaman itu tidak terselubung dengan baik.
 
 ---
 
-## Kembali ke Hotel — Sore
+Kembali ke Hotel — Sore
 
 Di kamar hotel, Kirana langsung membuka laptop dan menjalankan program deteksi penyusupan.
 
@@ -98,7 +98,7 @@ Kirana membuka buku catatannya dan menulis baris pendek:
 
 ---
 
-## Malam — Kamar Raymond
+Malam — Kamar Raymond
 
 Di penthouse Raymond di lantai 35, pria itu duduk sendirian di ruang kerjanya. Dua monitor menyala di hadapannya — satu menampilkan data keuangan Dragon Pacific, satu lagi menampilkan rekaman CCTV dari rumah sakit Gleneagles.
 

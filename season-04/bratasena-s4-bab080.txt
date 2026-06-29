@@ -1,6 +1,6 @@
-# BAB 80: PINTU MENUJU TOKYO
+BAB 80: PINTU MENUJU TOKYO
 
-## Tokyo, Narita International Airport — 8 Jam Kemudian
+Tokyo, Narita International Airport — 8 Jam Kemudian
 
 Pesawat mendarat di Bandara Narita pukul 21:00 waktu setempat. Udara Tokyo menusuk tulang — awal musim dingin, suhu 8 derajat Celsius.
 
@@ -14,7 +14,7 @@ Ia naik taksi ke arah pusat kota.
 
 ---
 
-## Stasiun Asakusa — Malam
+Stasiun Asakusa — Malam
 
 Baskoro turun di Stasiun Asakusa. Stasiun kereta bawah tanah yang ramai — bahkan di malam hari. Aroma aneh campuran makanan jalanan, asap rokok, dan udara bawah tanah yang lembab memenuhi hidungnya.
 
@@ -36,7 +36,7 @@ Ia tidak membuka map itu di stasiun. Tidak aman.
 
 ---
 
-## Hotel Kecil di Asakusa
+Hotel Kecil di Asakusa
 
 Baskoro check-in ke hotel kapsul dekat stasiun — murah, anonim, sempit. Kamar hanya cukup untuk satu orang berbaring, dengan tirai sebagai pintu.
 
@@ -44,7 +44,7 @@ Di dalam kapsul itu, ia membuka map.
 
 ---
 
-## Isi Map
+Isi Map
 
 Ada tiga dokumen utama:
 
@@ -72,7 +72,7 @@ Tidak ada yang mengangkat.
 
 ---
 
-## Hotel Kapsul — Tengah Malam
+Hotel Kapsul — Tengah Malam
 
 Baskoro tidak bisa tidur.
 
@@ -108,7 +108,7 @@ Baskoro menunggu.
 
 ---
 
-## 10 Menit Kemudian
+10 Menit Kemudian
 
 *DING.*
 
@@ -124,7 +124,7 @@ Baskoro menyimpan alamat itu. Ia akan menemuinya besok pagi.
 
 ---
 
-## Tokyo — Tengah Malam
+Tokyo — Tengah Malam
 
 Di luar jendela kapsul, lampu-lampu kota Tokyo tidak pernah padam. Baskoro menatapnya, dan untuk pertama kalinya dalam perjalanannya, ia merasa sendirian.
 
@@ -142,7 +142,7 @@ Ia tahu Baskoro telah tiba di kotanya.
 
 ---
 
-## PESAN TERAKHIR — KE SEASON 5
+PESAN TERAKHIR — KE SEASON 5
 
 Baskoro Bratasena telah melintasi batas yang tidak bisa ditarik kembali.
 
@@ -164,7 +164,7 @@ Pertanyaan yang menggantung di ujung Season 4:
 
 ---
 
-## 🔥 EPILOG: GINZA, TOKYO — 02:00 JST
+🔥 EPILOG: GINZA, TOKYO — 02:00 JST
 
 Di sebuah gedung tua di distrik Ginza yang sunyi di malam hari, Kenshin Hayashi menuangkan teh hijau ke dalam cangkir keramik yang telah digunakan selama 40 tahun.
 

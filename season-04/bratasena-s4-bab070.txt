@@ -1,6 +1,6 @@
-# BAB 70: LANGKAH DI ATAS ES TIPIS
+BAB 70: LANGKAH DI ATAS ES TIPIS
 
-## Kediaman Ling, Orchard Road, Singapura — Malam
+Kediaman Ling, Orchard Road, Singapura — Malam
 
 Ling duduk di ruang tamu apartemen pribadinya yang minimalis. Tidak seperti Raymond yang suka kemewahan berlebihan, Ling memilih apartemen sederhana di lantai 12 — dua kamar tidur, ruang tamu kecil dengan pemandangan kota, dan sebuah meja kerja kayu yang selalu dipenuhi dokumen keuangan.
 
@@ -38,7 +38,7 @@ Kirana terdiam untuk waktu yang lama.
 
 ---
 
-## Hotel Marina Bay — Malam
+Hotel Marina Bay — Malam
 
 Kirana menceritakan rencana Ling pada Baskoro di kamar hotel. Keduanya duduk berhadapan, peta Singapura terbuka di atas meja.
 
@@ -58,7 +58,7 @@ Baskoro menatap Kirana. Matanya — lelah, tapi tidak padam.
 
 ---
 
-## Bandara Changi, Terminal 3 — Pukul 21:50
+Bandara Changi, Terminal 3 — Pukul 21:50
 
 Baskoro dan Kirana tiba di area parkir mobil Terminal 3. Parkir bertingkat. Lantai 4. Zona B.
 
@@ -82,7 +82,7 @@ Mereka berlari menuju mobil sewaan mereka dan meninggalkan bandara dengan hard d
 
 ---
 
-## Pesawat Menuju Jakarta — Dini Hari
+Pesawat Menuju Jakarta — Dini Hari
 
 Di dalam pesawat, Kirana memeriksa hard drive itu. Data masih utuh. Semua folder. Semua file. Semua bukti transaksi Sari Dewi yang Raymond curi — kini telah kembali.
 
@@ -102,7 +102,7 @@ Mungkin, pikir Baskoro, di dunia yang penuh dengan naga, masih ada orang yang me
 
 ---
 
-## Tokyo, Kantor Tendo-kai — Pagi, Waktu Jepang
+Tokyo, Kantor Tendo-kai — Pagi, Waktu Jepang
 
 Laporan diterima di meja Kenshin Hayashi melalui saluran pribadi.
 
