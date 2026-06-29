@@ -51,7 +51,8 @@ const Reader = (() => {
       }
 
       // Update top bar title
-      document.getElementById('reader-novel-title').textContent = novelInfo.title;
+      const novelTitleEl = document.getElementById('reader-novel-title');
+      if (novelTitleEl) novelTitleEl.textContent = novelInfo.title;
 
       // Collect all chapters from all seasons
       allChapters = [];
