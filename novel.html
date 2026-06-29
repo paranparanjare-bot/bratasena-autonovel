@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#0a0a0f">
+  <title>Detail Novel — motjo</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .novel-detail-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px 16px 80px 16px;
+    }
+    .novel-detail-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .novel-detail-cover {
+      width: 160px;
+      aspect-ratio: 2/3;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5), 0 0 15px rgba(199, 168, 76, 0.2);
+      border: 1px solid rgba(255,255,255,0.1);
+      margin-bottom: 20px;
+      background: var(--bg-elevated);
+    }
+    .novel-detail-cover img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .novel-detail-title {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      color: var(--gold);
+      margin-bottom: 8px;
+    }
+    .novel-detail-author {
+      font-family: var(--font-ui);
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+    .novel-detail-meta {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .novel-detail-meta span {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      padding: 4px 12px;
+      font-size: 0.75rem;
+      border-radius: 20px;
+      font-family: var(--font-ui);
+      color: var(--text-secondary);
+    }
+    .novel-detail-desc {
+      font-family: var(--font-ui);
+      font-size: 0.92rem;
+      line-height: 1.6;
+      color: var(--text-secondary);
+      margin-bottom: 30px;
+      text-align: justify;
+    }
+    .season-section-title {
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      color: var(--text-primary);
+      margin-bottom: 16px;
+      border-left: 3px solid var(--gold);
+      padding-left: 10px;
+    }
+    .season-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .season-card {
+      display: flex;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 12px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .season-card:hover {
+      border-color: var(--gold-dim);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-gold);
+    }
+    .season-card-cover {
+      width: 70px;
+      aspect-ratio: 2/3;
+      border-radius: 4px;
+      overflow: hidden;
+      flex-shrink: 0;
+      background: var(--bg-elevated);
+    }
+    .season-card-cover img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .season-card-info {
+      margin-left: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .season-card-name {
+      font-family: var(--font-display);
+      font-size: 0.95rem;
+      color: var(--gold);
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .season-card-meta {
+      font-family: var(--font-ui);
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+    .action-button-container {
+      width: 100%;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ===== TOP BAR ===== -->
+<nav class="top-bar">
+  <a href="library.html" class="back-link">← Kembali</a>
+  <div class="top-bar-right">
+    <span style="font-family:var(--font-ui);font-size:0.8rem;color:var(--text-muted);" data-auth="logged-in">
+      👤 <span data-auth="username"></span>
+    </span>
+  </div>
+</nav>
+
+<!-- ===== DETAIL CONTENT ===== -->
+<div class="page">
+  <div class="novel-detail-container" id="novel-detail-content">
+    <div class="loading">Memuat detail novel...</div>
+  </div>
+</div>
+
+<!-- ===== SCRIPTS ===== -->
+<script src="js/auth.js"></script>
+<script src="js/app.js"></script>
+<script>
+  const Detail = (() => {
+    function getQueryParam(name) {
+      const params = new URLSearchParams(window.location.search);
+      return params.get(name);
+    }
+
+    return {
+      async init() {
+        const novelId = getQueryParam('novel');
+        if (!novelId) {
+          document.getElementById('novel-detail-content').innerHTML = '<p class="text-center">Novel tidak ditemukan.</p>';
+          return;
+        }
+
+        // Fetch DB
+        let novelInfo = null;
+        try {
+          const resp = await fetch('novels/novels.json');
+          const data = await resp.json();
+          novelInfo = data.novels.find(n => n.id === novelId);
+        } catch {
+          try {
+            const resp = await fetch('https://paranparanjare-bot.github.io/bratasena-autonovel/novels/novels.json');
+            const data = await resp.json();
+            novelInfo = data.novels.find(n => n.id === novelId);
+          } catch (e) {
+            console.error(e);
+          }
+        }
+
+        if (!novelInfo) {
+          document.getElementById('novel-detail-content').innerHTML = '<p class="text-center">Novel tidak ditemukan.</p>';
+          return;
+        }
+
+        document.title = `${novelInfo.title} — motjo`;
+
+        // Render detail
+        const container = document.getElementById('novel-detail-content');
+        container.innerHTML = '';
+
+        // Default cover is either first season cover or placeholder
+        const mainCover = (novelInfo.seasons && novelInfo.seasons.length > 0 && novelInfo.seasons[0].cover)
+          ? novelInfo.seasons[0].cover
+          : (novelInfo.cover || '');
+
+        const hasSeasons = novelInfo.seasons && novelInfo.seasons.length > 1;
+
+        let metaHtml = `<span>${novelInfo.genre || 'Fiksi'}</span>`;
+        if (hasSeasons) {
+          metaHtml += `<span>${novelInfo.seasons.length} Season</span>`;
+        }
+        metaHtml += `<span>${novelInfo.totalChapters} Bab</span>`;
+
+        let contentHtml = `
+          <div class="novel-detail-header">
+            <div class="novel-detail-cover">
+              ${mainCover ? `<img src="${mainCover}" alt="${novelInfo.title}">` : `<span class="no-cover" style="font-size:3rem;line-height:240px;opacity:0.3;color:var(--gold);">${novelInfo.title.charAt(0)}</span>`}
+            </div>
+            <h1 class="novel-detail-title">${novelInfo.title}</h1>
+            <div class="novel-detail-author">Karya ${novelInfo.author || 'ekosetyobudi'}</div>
+            <div class="novel-detail-meta">
+              ${metaHtml}
+            </div>
+          </div>
+          <div class="novel-detail-desc">
+            ${novelInfo.description || 'Tidak ada deskripsi.'}
+          </div>
+        `;
+
+        if (hasSeasons) {
+          // Has multiple seasons — Render season list
+          contentHtml += `<h2 class="season-section-title">Pilih Season</h2><div class="season-list">`;
+          
+          novelInfo.seasons.forEach((season, idx) => {
+            const firstChapNum = (season.chapters && season.chapters.length > 0) ? season.chapters[0].num : 1;
+            const seasonCover = season.cover || mainCover;
+            contentHtml += `
+              <a href="reader.html?novel=${novelInfo.id}&bab=${firstChapNum}" class="season-card">
+                <div class="season-card-cover">
+                  ${seasonCover ? `<img src="${seasonCover}" alt="${season.name}">` : ''}
+                </div>
+                <div class="season-card-info">
+                  <div class="season-card-name">Season ${idx + 1}: ${season.name}</div>
+                  <div class="season-card-meta">${season.chapters ? season.chapters.length : 0} Bab</div>
+                </div>
+              </a>
+            `;
+          });
+          
+          contentHtml += `</div>`;
+        } else {
+          // No multiple seasons — Render single big Start Reading button
+          const firstChapNum = (novelInfo.seasons && novelInfo.seasons[0] && novelInfo.seasons[0].chapters && novelInfo.seasons[0].chapters[0]) 
+            ? novelInfo.seasons[0].chapters[0].num 
+            : 1;
+
+          contentHtml += `
+            <div class="action-button-container">
+              <a href="reader.html?novel=${novelInfo.id}&bab=${firstChapNum}" class="btn btn-gold" style="display:block; text-align:center; padding: 14px 20px;">Mulai Membaca</a>
+            </div>
+          `;
+        }
+
+        container.innerHTML = contentHtml;
+        App.updateAuthUI();
+      }
+    };
+  })();
+
+  document.addEventListener('DOMContentLoaded', () => Detail.init());
+</script>
+</body>
+</html>

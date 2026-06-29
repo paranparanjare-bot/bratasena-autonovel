@@ -6,6 +6,7 @@
   <meta name="theme-color" content="#0a0a0f">
   <meta name="description" content="motjo — Perpustakaan Digital fiksi & novel karya ekosetyobudi.">
   <title>motjo — Perpustakaan Digital</title>
+  <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="css/style.css">
   <style>
     /* Auth buttons on the hero image itself — positioned absolutely */
@@ -34,7 +35,52 @@
       justify-content: flex-end; /* Push to bottom */
       height: 100%;
       box-sizing: border-box;
-      padding-bottom: 70px; /* Leave space for floating copyright footer */
+      padding-bottom: 60px; /* Leave space for floating copyright footer */
+    }
+
+    /* ===== LANDING PAGE COVER SLIDESHOW & GLOW 3D ===== */
+    .hero-cover-slideshow {
+      position: relative;
+      width: 120px;
+      aspect-ratio: 2/3;
+      border-radius: 6px;
+      margin-bottom: 24px;
+      background: rgba(0, 0, 0, 0.4);
+      
+      /* 3D Glow: pendaran cahaya keemasan halus di belakang */
+      box-shadow: 
+        0 10px 25px rgba(0, 0, 0, 0.6),
+        0 0 25px rgba(199, 168, 76, 0.25),
+        0 0 50px rgba(199, 168, 76, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      overflow: hidden;
+      transition: transform 0.5s ease;
+      z-index: 5;
+    }
+
+    .hero-cover-slideshow:hover {
+      transform: scale(1.04) translateY(-2px);
+      box-shadow: 
+        0 15px 30px rgba(0, 0, 0, 0.7),
+        0 0 35px rgba(199, 168, 76, 0.45),
+        0 0 70px rgba(199, 168, 76, 0.2);
+    }
+
+    .hero-cover-slideshow .slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      transition: opacity 1.2s ease-in-out; /* Smooth crossfade */
+      z-index: 1;
+    }
+
+    .hero-cover-slideshow .slide.active {
+      opacity: 1;
+      z-index: 2;
     }
 
     .hero-actions {
@@ -45,6 +91,7 @@
       max-width: 280px; /* Narrower width for elegant vertical stack */
       justify-content: center;
       padding: 0 16px;
+      z-index: 5;
     }
 
     .hero-actions .btn {
@@ -138,6 +185,14 @@
   </div>
 
   <div class="hero-content">
+    <!-- SLIDESHOW COVER DI TENGAH DENGAN GLOW 3D -->
+    <div class="hero-cover-slideshow">
+      <img src="assets/bratasena/season-01.webp" class="slide active" alt="Season 1">
+      <img src="assets/bratasena/season-02.webp" class="slide" alt="Season 2">
+      <img src="assets/bratasena/season-03.webp" class="slide" alt="Season 3">
+      <img src="assets/bratasena/season-04.webp" class="slide" alt="Season 4">
+    </div>
+
     <div class="hero-actions">
       <a href="library.html" class="btn btn-outline">Perpustakaan</a>
       <a href="https://wa.me/62895428301010" target="_blank" class="btn btn-outline">Hubungi Kami</a>
@@ -156,5 +211,19 @@
 <!-- ===== SCRIPTS ===== -->
 <script src="js/auth.js"></script>
 <script src="js/app.js"></script>
+<script>
+  // Simple slideshow script
+  document.addEventListener('DOMContentLoaded', () => {
+    const slides = document.querySelectorAll('.hero-cover-slideshow .slide');
+    if (slides.length > 0) {
+      let currentIdx = 0;
+      setInterval(() => {
+        slides[currentIdx].classList.remove('active');
+        currentIdx = (currentIdx + 1) % slides.length;
+        slides[currentIdx].classList.add('active');
+      }, 3000); // 3 seconds interval
+    }
+  });
+</script>
 </body>
 </html>

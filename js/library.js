@@ -21,7 +21,6 @@ const Library = (() => {
         return novels;
       } catch (e) {
         console.error('Failed to load novel database:', e);
-        // Fallback to absolute gh-pages path
         try {
           const ghUrl = 'https://paranparanjare-bot.github.io/bratasena-autonovel/novels/novels.json';
           const resp = await fetch(ghUrl);
@@ -37,7 +36,7 @@ const Library = (() => {
     },
 
     /**
-     * Render grid of novel cards by mapping seasons to individual cards
+     * Render grid of novel cards as a list of Titles (not seasons)
      */
     renderGrid(novels, containerId = 'library-grid') {
       const container = document.getElementById(containerId);
@@ -57,67 +56,37 @@ const Library = (() => {
       }
 
       novels.forEach(novel => {
-        // If the novel has multiple seasons, render each season as its own card!
-        if (novel.seasons && novel.seasons.length > 0) {
-          novel.seasons.forEach(season => {
-            const card = document.createElement('a');
-            card.className = 'novel-card';
+        const card = document.createElement('a');
+        card.className = 'novel-card-horizontal';
+        card.href = `novel.html?novel=${novel.id}`;
 
-            // First chapter of this season
-            const firstChapNum = (season.chapters && season.chapters.length > 0)
-              ? season.chapters[0].num
-              : 1;
+        // Get cover (default to first season cover, or novel cover)
+        const coverUrl = (novel.seasons && novel.seasons.length > 0 && novel.seasons[0].cover)
+          ? novel.seasons[0].cover
+          : (novel.cover || '');
 
-            card.href = `reader.html?novel=${novel.id}&bab=${firstChapNum}`;
+        const coverHtml = coverUrl
+          ? `<img src="${coverUrl}" alt="${novel.title}" loading="lazy">`
+          : `<span class="no-cover-small">${novel.title.charAt(0)}</span>`;
 
-            // Try season cover, fallback to main cover
-            const coverUrl = season.cover || novel.cover || '';
-            const coverHtml = coverUrl
-              ? `<img src="${coverUrl}" alt="${novel.title} - ${season.name}" loading="lazy">`
-              : `<span class="no-cover">${novel.title.charAt(0)}</span>`;
+        const seasonsCount = novel.seasons ? novel.seasons.length : 1;
+        const hasMultipleSeasons = novel.seasons && novel.seasons.length > 1;
+        const totalChapters = novel.totalChapters || 0;
 
-            const totalChapters = season.chapters ? season.chapters.length : 0;
-
-            card.innerHTML = `
-              <div class="novel-card-cover">${coverHtml}</div>
-              <div class="novel-card-info">
-                <div class="novel-card-title">${novel.title}</div>
-                <div class="novel-card-season">${season.name}</div>
-                <div class="novel-card-meta">
-                  <span>${totalChapters} Bab</span>
-                  ${novel.genre ? `<span>${novel.genre}</span>` : ''}
-                </div>
-              </div>
-            `;
-
-            container.appendChild(card);
-          });
-        } else {
-          // Fallback rendering for single-season or flat novels
-          const card = document.createElement('a');
-          card.className = 'novel-card';
-          card.href = `reader.html?novel=${novel.id}`;
-
-          const coverUrl = novel.cover || '';
-          const coverHtml = coverUrl
-            ? `<img src="${coverUrl}" alt="${novel.title}" loading="lazy">`
-            : `<span class="no-cover">${novel.title.charAt(0)}</span>`;
-
-          const totalChapters = novel.totalChapters || 0;
-
-          card.innerHTML = `
-            <div class="novel-card-cover">${coverHtml}</div>
-            <div class="novel-card-info">
-              <div class="novel-card-title">${novel.title}</div>
-              <div class="novel-card-meta">
-                <span>${totalChapters} Bab</span>
-                ${novel.genre ? `<span>${novel.genre}</span>` : ''}
-              </div>
+        card.innerHTML = `
+          <div class="novel-card-h-cover">${coverHtml}</div>
+          <div class="novel-card-h-info">
+            <div class="novel-card-h-title">${novel.title}</div>
+            <div class="novel-card-h-desc">${novel.description || ''}</div>
+            <div class="novel-card-h-meta">
+              <span>${totalChapters} Bab</span>
+              <span>${seasonsCount} Season</span>
+              ${novel.genre ? `<span>${novel.genre}</span>` : ''}
             </div>
-          `;
+          </div>
+        `;
 
-          container.appendChild(card);
-        }
+        container.appendChild(card);
       });
     },
 

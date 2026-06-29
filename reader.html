@@ -4,32 +4,120 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="theme-color" content="#0a0a0f">
-  <title>Membaca — Bratasena</title>
+  <title>Membaca — motjo</title>
+  <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Sticky Bottom Toolbar */
+    .reader-bottom-toolbar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 99;
+      background: rgba(10, 10, 15, 0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-top: 1px solid var(--border);
+      box-sizing: border-box;
+      padding: 8px 12px;
+      height: 54px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .reader-bottom-actions {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: var(--max-read);
+      margin: 0 auto;
+      width: 100%;
+      gap: 4px;
+    }
+
+    .toolbar-divider {
+      width: 1px;
+      height: 18px;
+      background: var(--border);
+      opacity: 0.6;
+    }
+
+    .toolbar-nav-buttons {
+      display: flex;
+      gap: 4px;
+    }
+
+    /* Override topbar to just be a simple clean back link */
+    .reader-topbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 46px;
+      background: rgba(10, 10, 15, 0.85);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border);
+      z-index: 90;
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+      box-sizing: border-box;
+      justify-content: flex-start;
+    }
+
+    .reader-topbar .back-link {
+      font-family: var(--font-ui);
+      font-size: 0.85rem;
+      text-decoration: none;
+      color: var(--text-secondary);
+      transition: color 0.3s;
+    }
+    .reader-topbar .back-link:hover {
+      color: #ffffff;
+    }
+
+    /* Content area adjustment */
+    .reader-content {
+      padding: 60px 16px 90px 16px !important;
+      max-width: var(--max-read);
+      margin: 0 auto;
+    }
+
+    /* Remove the header chapter number (Poin 5) */
+    .reader-chapter-header {
+      text-align: center;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    
+    .reader-chapter-title {
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      color: var(--gold);
+      line-height: 1.35;
+      margin: 0;
+    }
+  </style>
 </head>
 <body>
 
 <!-- ===== PROGRESS BAR ===== -->
-<div class="reader-progress">
+<div class="reader-progress" style="top: 46px;">
   <div class="reader-progress-bar" id="reader-progress-bar"></div>
 </div>
 
-<!-- ===== TOP BAR ===== -->
+<!-- ===== TOP BAR (Clean Back Link) ===== -->
 <nav class="reader-topbar">
   <a href="library.html" class="back-link">← Perpustakaan</a>
-  <div class="reader-topbar-title">
-    <strong id="reader-novel-title">Novel</strong>
-    <span id="reader-chapter-num">Bab 1</span>
-  </div>
-  <div class="reader-controls">
-    <button class="btn-icon" id="bookmark-btn" title="Bookmark" style="opacity:0.4;">🔖</button>
-    <button class="btn-icon" id="sidebar-toggle" title="Daftar Bab">☰</button>
-  </div>
 </nav>
 
 <!-- ===== SIDEBAR ===== -->
 <div class="sidebar-overlay" id="sidebar-overlay"></div>
-<div class="sidebar" id="sidebar">
+<div class="sidebar" id="sidebar" style="top: 0; bottom: 0; z-index: 1000;">
   <div class="sidebar-header">
     <h3 id="sidebar-novel-title">Bratasena</h3>
     <p>Daftar Bab</p>
@@ -38,25 +126,11 @@
   <div id="sidebar-chapter-list"></div>
 </div>
 
-<!-- ===== CONTROLS BAR (sticky below topbar) ===== -->
-<div style="position:fixed;top:56px;left:0;right:0;z-index:90;display:flex;align-items:center;justify-content:center;gap:8px;padding:6px 16px;background:rgba(10,10,15,0.8);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--border);">
-  <div class="font-size-controls">
-    <button class="btn-icon" id="font-decrease" title="Perkecil font">A−</button>
-    <span class="font-size-label" data-fontsize-label="16px">16px</span>
-    <button class="btn-icon" id="font-increase" title="Perbesar font">A+</button>
-  </div>
-  <div style="width:1px;height:20px;background:var(--border);margin:0 4px;"></div>
-  <button class="btn-icon" id="theme-toggle" title="Ganti tema (Dark/Sepia/Light)">◑</button>
-  <div style="width:1px;height:20px;background:var(--border);margin:0 4px;"></div>
-  <button class="btn btn-ghost" id="prev-chapter" disabled>← Sebelum</button>
-  <button class="btn btn-ghost" id="next-chapter" disabled>Lanjut →</button>
-</div>
-
 <!-- ===== READING CONTENT ===== -->
 <div class="page">
   <div class="reader-content">
     <div class="reader-chapter-header">
-      <div class="reader-chapter-number" id="reader-chapter-num">Bab 1</div>
+      <!-- Removed duplicate chapter number (Poin 5) -->
       <h1 class="reader-chapter-title" id="reader-chapter-title">Memuat...</h1>
     </div>
     <div id="reader-body" class="reader-body">
@@ -64,9 +138,40 @@
     </div>
 
     <!-- Bottom chapter navigation -->
-    <div class="chapter-nav">
+    <div class="chapter-nav" style="margin-bottom: 20px;">
       <button class="btn btn-outline" id="prev-chapter-bottom" onclick="Reader.goToChapter(-1)">← Bab Sebelumnya</button>
       <button class="btn btn-gold" id="next-chapter-bottom" onclick="Reader.goToChapter(1)">Bab Selanjutnya →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== STICKY BOTTOM TOOLBAR ===== -->
+<div class="reader-bottom-toolbar">
+  <div class="reader-bottom-actions">
+    <!-- Menu Hamburger Daftar Bab -->
+    <button class="btn-icon" id="sidebar-toggle" title="Daftar Bab">☰</button>
+    <div class="toolbar-divider"></div>
+    
+    <!-- Kontrol Font (A-, A+) -->
+    <div class="font-size-controls" style="display:flex; align-items:center; gap:4px;">
+      <button class="btn-icon" id="font-decrease" style="padding: 4px 8px; font-size:0.85rem;">A−</button>
+      <span class="font-size-label" data-fontsize-label="16px" style="font-size:0.75rem; min-width:32px; text-align:center;">16px</span>
+      <button class="btn-icon" id="font-increase" style="padding: 4px 8px; font-size:0.85rem;">A+</button>
+    </div>
+    <div class="toolbar-divider"></div>
+    
+    <!-- Ganti Tema -->
+    <button class="btn-icon" id="theme-toggle" title="Ganti Tema">◑</button>
+    <div class="toolbar-divider"></div>
+    
+    <!-- Bookmark -->
+    <button class="btn-icon" id="bookmark-btn" title="Simpan Bookmark" style="opacity:0.4;">🔖</button>
+    <div class="toolbar-divider"></div>
+    
+    <!-- Navigasi Bab Sebelumnya / Lanjut -->
+    <div class="toolbar-nav-buttons">
+      <button class="btn btn-ghost" id="prev-chapter" style="padding: 6px 8px; font-size: 0.75rem;" disabled>Sebelum</button>
+      <button class="btn btn-ghost" id="next-chapter" style="padding: 6px 8px; font-size: 0.75rem;" disabled>Lanjut</button>
     </div>
   </div>
 </div>

@@ -1,0 +1,18 @@
+{
+  "short_name": "motjo",
+  "name": "motjo Library — Perpustakaan Digital",
+  "description": "Perpustakaan digital fiksi & novel karya ekosetyobudi.",
+  "icons": [
+    {
+      "src": "assets/motjo-mascot.webp",
+      "type": "image/webp",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#0a0a0f",
+  "theme-color": "#0a0a0f",
+  "display": "standalone",
+  "orientation": "portrait"
+}

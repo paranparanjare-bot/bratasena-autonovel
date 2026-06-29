@@ -120,7 +120,8 @@ const Reader = (() => {
         let text = await resp.text();
 
         // Update header
-        document.getElementById('reader-chapter-num').textContent = `Bab ${ch.num}`;
+        const chapNumEl = document.getElementById('reader-chapter-num');
+        if (chapNumEl) chapNumEl.textContent = `Bab ${ch.num}`;
         document.getElementById('reader-chapter-title').textContent = ch.title || '';
         document.title = `${ch.title || 'Bab ' + ch.num} — ${novelInfo.title}`;
 
