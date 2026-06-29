@@ -1,0 +1,139 @@
+BAB 05: MESIN DAN MANIPULASI
+Lantai Produksi, Pabrik Kediri (Minggu Keempat)
+Suara gemertak logam yang keras memecah ritme produksi pagi itu. Mesin pelinting nomor empat—mesin paling tua namun paling stabil di lantai produksi—tiba-tiba berhenti beroperasi dengan bunyi yang tidak wajar. Asap tipis mengepul dari sisi mesin, membawa bau minyak terbakar yang menyengat.
+
+"Matikan! Matikan sekarang!" teriak Pak Karto, berlari menuju panel kontrol untuk memutus aliran listrik.
+
+Para pekerja di sekitar mesin mundur dengan cepat. Tidak ada yang terluka, tapi wajah-wajah mereka menunjukkan kekhawatiran yang dalam. Mesin pelinting nomor empat adalah tulang punggung produksi pabrik ini—menyumbang tiga puluh persen dari total kapasitas. Tanpa mesin itu, target produksi harian akan anjlok.
+
+Baskoro turun dari ruang manajemen lantai dua, melangkah cepat menuju mesin yang masih mengeluarkan asap tipis. Pak Karto sudah membuka panel samping mesin dengan kunci inggris, memeriksa bagian dalam dengan senter.
+
+"Bearing utama pecah, Pak," lapor Pak Karto, suaranya berat. "Dan yang lebih aneh... oli pelumas di chamber bearing ini hampir habis. Padahal baru kita isi penuh minggu lalu."
+
+Baskoro jongkok di samping Pak Karto, menatap ke dalam mesin. Bearing yang pecah terlihat jelas—logam yang seharusnya berputar mulus kini retak dan menghitam. Tapi yang membuat Baskoro curiga adalah detail lain: tutup chamber oli pelumas terlihat longgar, seolah baru dibuka dan ditutup kembali dengan tidak sempurna.
+
+"Ini bukan kerusakan alami," gumam Baskoro. "Bearing tidak akan pecah dalam seminggu jika oli masih penuh. Seseorang sengaja menguras oli-nya."
+
+Pak Karto menatap Baskoro dengan ekspresi yang campuran antara kemarahan dan ketakutan. "Sabotase? Di dalam pabrik kita sendiri?"
+
+"Siapa yang punya akses ke mesin ini di malam hari?" tanya Baskoro.
+
+"Hanya mandor shift malam dan teknisi pemeliharaan. Tapi mereka sudah bekerja di sini bertahun-tahun, Pak. Aku kenal mereka semua. Mereka tidak mungkin—"
+
+"Uang bisa mengubah loyalitas," potong Baskoro. Ia berdiri, menatap para pekerja yang berkumpul di kejauhan. "Panggil semua mandor dan teknisi. Aku ingin bicara dengan mereka sekarang."
+
+---
+
+Interogasi yang Tidak Membuahkan Hasil
+Ruang rapat kecil di lantai dua terasa sesak dengan ketegangan. Lima mandor dan dua teknisi duduk berjejer di kursi kayu, menatap Baskoro yang berdiri di hadapan mereka dengan ekspresi yang tidak bisa ditebak.
+
+"Mesin nomor empat rusak karena sabotase," kata Baskoro langsung, tanpa basa-basi. "Chamber oli-nya dikuras secara sengaja, menyebabkan bearing pecah. Saya tidak menuduh siapa pun di ruangan ini. Tapi saya butuh tahu: apakah ada dari kalian yang melihat sesuatu yang mencurigakan di sekitar mesin itu minggu ini?"
+
+Para mandor saling bertukar pandang. Tidak ada yang langsung menjawab. Keheningan yang mencekam melanda ruangan.
+
+Akhirnya, salah satu mandor senior bernama Pak Joko angkat bicara. "Pak Baskoro, kami semua tahu bahwa jakarta tidak senang dengan pabrik ini tetap beroperasi. Tapi kami yang bekerja di sini... kami butuh gaji untuk hidupi keluarga. Kami tidak mungkin sabotase pabrik sendiri."
+
+"Saya tahu," jawab Baskoro. "Tapi uang dari luar bisa membuat seseorang melakukan hal yang tidak mereka inginkan. Jika ada di antara kalian yang dihubungi oleh pihak luar, atau melihat orang asing di sekitar pabrik di luar jam kerja, saya butuh tahu sekarang."
+
+Tidak ada yang menjawab. Tatapan mereka menghindari mata Baskoro, tidak karena bersalah, tapi karena takut. Takut bahwa jika mereka bicara, mereka akan menjadi target berikutnya.
+
+Baskoro menghela napas. Ia tahu interrogasi seperti ini tidak akan menghasilkan apa-apa. Siapa pun yang melakukan sabotase itu sudah dilatih untuk menutup mulut, atau bahkan tidak berada di ruangan ini.
+
+"Baiklah," kata Baskoro akhirnya. "Mulai hari ini, akses ke lantai produksi setelah jam kerja harus dicatat dengan ketat. Siapa pun yang masuk harus menulis nama, waktu, dan tujuan di log book. Dan kita pasang kamera CCTV di sekitar mesin-mesin utama."
+
+"Kamera CCTV butuh biaya, Pak," ucap Pak Karto hati-hati.
+
+"Kita akan gunakan uang kas darurat," jawab Baskoro. "Lebih baik keluar uang untuk pencegahan daripada untuk ganti rugi kerusakan berikutnya."
+
+---
+
+Telepon dari Kirana: Jejak Keuangan yang Makin Gelap
+Malam itu, Baskoro duduk sendirian di ruang manajemen yang gelap. Hanya lampu meja kecil yang menyala, menerangi laptop dan tumpukan dokumen keuangan. Ponselnya berdering—panggilan dari Kirana.
+
+"Aku sudah lacak jejak transfer yang mencurigakan," kata Kirana tanpa basa-basi. "Tiga minggu lalu, ada transfer sebesar seratus lima puluh juta rupiah dari rekening PT Cahaya Nusantara ke rekening atas nama seseorang bernama Yanto Susilo. Orang ini punya catatan kriminal—preman lokal di Surabaya. Dan yang lebih menarik... dua hari setelah transfer itu, ada pengeluaran tunai besar dari rekening Yanto. Kemungkinan dia membayar seseorang untuk melakukan pekerjaan kotor."
+
+Baskoro mencerna informasi itu dengan hati-hati. "Yanto Susilo... nama itu tidak familiar. Apa dia punya koneksi dengan Kediri?"
+
+"Belum bisa dipastikan. Tapi pola transfernya menunjukkan bahwa dia adalah perantara. Orang bayaran yang disewa untuk mengorganisir sabotase atau intimidasi. Baskoro, ini sudah bukan sekadar perang bisnis. Mereka menggunakan orang-orang dari dunia hitam."
+
+Baskoro merasakan dingin merayap di tulang belakangnya. Ia sudah siap menghadapi gugatan hukum, inspeksi mendadak, dan tekanan finansial. Tapi sabotase fisik dan ancaman dari preman adalah level yang berbeda.
+
+"Apa yang harus kita lakukan?" tanya Baskoro, pertama kalinya terdengar keraguan nyata dalam suaranya.
+
+"Untuk sekarang, pasang CCTV seperti yang kau rencanakan. Dokumentasikan semua kerusakan. Dan jangan pernah sendirian di pabrik di malam hari. Jika mereka sudah bayar preman untuk sabotase, mereka tidak akan ragu untuk melakukan hal lain yang lebih ekstrem."
+
+"Terima kasih, Kirana."
+
+"Hati-hati, Baskoro. Kau sedang melawan keluarga yang membangun kerajaan dari nol dengan cara-cara yang tidak selalu bersih. Jangan pernah meremehkan mereka."
+
+---
+
+Biaya yang Terus Membengkak
+Keesokan harinya, Baskoro duduk di hadapan Pak Wibowo, notaris Kediri, dengan tumpukan tagihan di atas meja.
+
+"Biaya perbaikan genset dan fasilitas keselamatan: lima juta," baca Pak Wibowo. "Biaya hukum untuk melawan gugatan PT Cahaya Nusantara: dua puluh lima juta untuk retainer awal. Biaya ganti bearing dan perbaikan mesin nomor empat: tiga belas juta. Biaya pemasangan CCTV: delapan juta. Total..."
+
+"Lima puluh satu juta," potong Baskoro. "Dan kita baru beroperasi sebulan."
+
+Pak Wibowo melepas kacamatanya, membersihkan lensa dengan kain. "Pak Baskoro, dengan pengeluaran seperti ini, berapa lama kas operasional Anda bisa bertahan?"
+
+"Dua bulan. Mungkin tiga jika kita potong biaya di tempat lain," jawab Baskoro. "Tapi kita tidak bisa potong gaji pekerja atau harga pembelian cengkeh dari petani. Itu akan membuat mereka kehilangan kepercayaan."
+
+"Lalu apa solusinya?"
+
+Baskoro terdiam. Ia sudah mempertimbangkan berbagai opsi—pinjaman bank, investor luar, bahkan menjual aset pribadi. Tapi semua opsi itu memerlukan waktu, dan waktu adalah sesuatu yang tidak ia miliki.
+
+"Saya akan cari investor independen," kata Baskoro akhirnya. "Orang-orang yang tidak terkait dengan B-Group. Mungkin pengusaha lokal atau koperasi. Mereka bisa beli saham minoritas di pabrik dengan imbalan modal operasional."
+
+Pak Wibowo mengangguk perlahan. "Itu mungkin. Tapi Pak harus siap bahwa dengan mengambil investor luar, Pak akan kehilangan sebagian kendali operasional. Dan jika pabrik gagal, Pak tidak hanya kehilangan warisan Pak Haryo, tapi juga uang investor yang percaya pada Pak."
+
+"Saya tahu," jawab Baskoro. "Tapi saya tidak punya pilihan lain."
+
+---
+
+Percakapan Malam dengan Pak Suroso
+Baskoro mengendarai motor Honda bebek tua melintasi jalan desa yang gelap menuju rumah Pak Suroso. Udara malam dingin, membawa aroma tanah basah dan bunga kamboja dari kuburan di pinggir jalan.
+
+Pak Suroso menyambutnya dengan teh hangat dan wajah yang penuh kekhawatiran. "Pak Baskoro, aku dengar mesin pabrik rusak. Apakah produksi masih bisa jalan?"
+
+"Masih bisa, tapi dengan kapasitas tujuh puluh persen," jawab Baskoro. "Pak, saya butuh bicara jujur. Pabrik sedang diserang dari berbagai sisi. Inspeksi, gugatan hukum, sabotase mesin. Jakarta ingin kita tutup, dan mereka tidak main-main."
+
+Pak Suroso menyeruput tehnya, menatap Baskoro dengan tatapan yang berat. "Kami para petani sudah menduga ini akan terjadi. Orang Jakarta tidak pernah peduli sama orang Jawa Timur. Pertanyaannya: apa Pak Baskoro masih bisa bertahan?"
+
+"Saya tidak tahu," jawab Baskoro dengan jujur. "Saya sudah keluarkan hampir semua uang pribadi saya. Dua bulan lagi, kalau tidak ada investor tambahan, kita akan kehabisan kas."
+
+Pak Suroso terdiam lama. Lalu ia bangkit, berjalan ke lemari kayu tua di sudut ruangan, dan mengeluarkan sebuah buku tabungan yang sampulnya sudah usang.
+
+"Ini tabungan hasil panen kami bertiga—saya, Pak Warno, dan Pak Jiman. Total ada dua ratus lima puluh juta rupiah. Kami ingin investasi di pabrik sebagai pemegang saham minoritas. Lima persen cukup. Kami tidak butuh dividen sekarang. Kami hanya ingin pabrik ini tetap hidup, karena kalau pabrik tutup, kami kehilangan pembeli terbesar kami."
+
+Baskoro menatap buku tabungan itu dengan campuran rasa terima kasih dan rasa bersalah yang mencekik. Dua ratus lima puluh juta adalah hasil kerja keras bertahun-tahun. Dan para petani ini bersedia mempertaruhkannya pada pabrik yang sedang sekarat.
+
+"Pak Suroso... ini terlalu besar. Saya tidak bisa jamin pabrik ini akan berhasil. Jika gagal, Bapak-bapak akan kehilangan semuanya."
+
+"Kami sudah tua, Pak Baskoro," jawab Pak Suroso dengan senyum yang tenang. "Kami tidak butuh uang untuk pensiun mewah. Kami butuh tahu bahwa tanah yang kami wariskan ke anak cucu masih bisa menghasilkan cengkeh yang ada yang beli. Kalau Pak Baskoro gagal, itu berarti kami semua gagal. Tapi kalau Pak tidak pernah mencoba, kami tidak akan pernah tahu apakah kami bisa menang."
+
+Baskoro menerima buku tabungan itu dengan tangan yang gemetar. Ia tidak bisa bicara. Hanya bisa mengangguk, karena tenggorokannya terasa tersumbat oleh emosi yang tidak bisa ia ekspresikan dengan kata-kata.
+
+---
+
+Kembali ke Kos: Beban yang Makin Berat
+Malam itu, Baskoro duduk di pinggir tempat tidur dengan buku tabungan Pak Suroso di sampingnya. Tasbih kayu berputar di tangannya, tapi doa yang biasanya ia panjatkan terasa berat dan sulit keluar.
+
+Ia sudah memasuki titik di mana mundur berarti mengkhianati orang-orang yang percaya padanya. Tapi maju berarti mempertaruhkan nyawa dan uang orang lain. Tidak ada pilihan yang benar. Hanya ada pilihan yang paling tidak salah.
+
+Ponselnya bergetar. Pesan dari nomor tidak dikenal.
+
+"Tutup pabrik itu sekarang. Atau hal yang terbakar berikutnya bukan hanya mesin."
+
+Baskoro menatap pesan itu lama. Tidak ada nama pengirim. Tidak ada tanda tangan. Hanya ancaman telanjang yang dikirim di tengah malam.
+
+Ia tidak membalas. Ia hanya mengambil screenshot pesan itu, mengirimkannya ke Kirana, lalu mematikan ponselnya. Ia tahu pesan itu datang dari orang yang dibayar oleh Jakarta untuk mengintimidasi. Dan ia tahu bahwa ancaman seperti itu jarang hanya berupa kata-kata.
+
+Tapi Baskoro juga tahu satu hal: ia tidak akan mundur. Bukan karena ia berani. Tapi karena ia tidak punya tempat lain untuk mundur.
+
+Di kegelapan kamar kos yang sempit, Baskoro Bratasena—anak haram yang baru sebulan memegang warisan ayahnya—memutar tasbih dan berdoa bukan untuk kemenangan. Ia berdoa agar ketika semuanya runtuh, ia masih punya cukup kekuatan untuk melindungi orang-orang yang sudah terlanjur mempercayainya.
+
+---
+
+AKHIR BAB 05
+

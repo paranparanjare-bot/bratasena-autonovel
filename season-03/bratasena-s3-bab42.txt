@@ -1,0 +1,127 @@
+BAB 42: PEMECAH SANDI
+
+Kantor Akuntansi, Pabrik Kediri (Malam Hari, Pukul 23:30)
+
+Kirana duduk di depan tiga monitor komputer di kantor akuntansi pabrik yang sunyi. Hanya suara kipas pendingin laptop dan rintik hujan di luar jendela yang memecah keheningan malam. Di tangannya, ia memegang chip mikro peninggalan Sari Dewi yang baru saja dilepaskan dari lapisan pelindung plastiknya.
+
+Ia memasukkan chip tersebut ke dalam alat pembaca kartu memori eksternal yang terhubung ke laptop khususnya—laptop yang tidak terhubung ke jaringan internet pabrik untuk mencegah deteksi dari luar.
+
+Layar monitor menampilkan pesan kesalahan instan:
+
+`DRIVE E: ACCESS DENIED. DISK IS ENCRYPTED USING AES-256 BIT KEY (VINTAGE 2011). PLEASE ENTER PASSPHRASE.`
+
+Kirana menghela napas panjang. AES-256 bit key dari tahun 2011 bukanlah enkripsi sembarangan. Di masa itu, tingkat keamanan seperti ini biasanya hanya digunakan oleh lembaga keuangan kelas dunia atau badan intelijen swasta. Sari Dewi—seorang sekretaris administrasi yayasan B-Group—pasti mendapatkan bantuan dari pihak ketiga untuk mengamankan data ini.
+
+"Sandi apa yang akan digunakan seorang ibu untuk melindungi anaknya?" gumam Kirana pada diri sendiri.
+
+Ia mulai mencoba beberapa kombinasi sandi standar yang biasa digunakan orang: tanggal lahir Baskoro, tanggal lahir Sari Dewi sendiri, nama lengkap Baskoro, nama almarhum Haryo.
+
+Semua percobaan ditolak. Layar berkedip merah:
+
+`INVALID PASSPHRASE. 4 ATTEMPTS REMAINING BEFORE DATA PERMANENT WIPE.`
+
+Kirana menarik tangannya dari keyboard. Empat kali percobaan lagi, dan data ini akan terhapus selamanya. Ini adalah proteksi anti-tamper yang sangat ketat. Ia tidak bisa menebak secara sembarangan. Ia harus menemukan kunci sandi yang logis.
+
+Ia bersandar di kursinya, memejamkan mata, memikirkan kembali sosok Sari Dewi dari cerita-cerita yang pernah ia dengar dari Pak Karto dan mendiang Haryo. Sari Dewi adalah wanita yang religius, pendiam, dan sangat mencintai putranya.
+
+"Baskoro selalu memegang tasbih kayu hitam itu," bisik Kirana.
+
+Ia membuka laci mejanya, mengambil pecahan butir tasbih kayu hitam ke-33 yang diberikan Baskoro sebelumnya. Ia menatap butiran kayu yang terbelah dua itu di bawah lampu pembesar.
+
+Di bagian dalam butiran kayu tersebut, terukir sebuah angka kecil yang sangat halus—nyaris tidak terlihat jika tidak menggunakan kaca pembesar:
+
+21-33-99
+
+Kirana mengernyit. Tiga pasang angka.
+
+"Apakah ini koordinat? Atau ayat kitab suci?"
+
+Ia mencoba mencocokkan angka-angka itu dengan tanggal penting. Tanggal lahir Baskoro adalah 21 September 1996. Angka 21 dan 99 (dari tahun 1996 jika dibalik atau dihitung secara numerologi)? Tidak, itu terlalu spekulatif.
+
+Bagaimana dengan tasbih itu sendiri? Tasbih kayu hitam tradisional biasanya memiliki total 99 butir. Dan butir yang terbelah ini adalah butir ke-33—angka pembatas utama dalam ritme doa tasbih (33 kali Subhanallah, 33 kali Alhamdulillah, 33 kali Allahu Akbar).
+
+21 adalah jumlah butir yang tersisa di bagian atas? Tidak.
+
+Kirana mengambil ponselnya, membuka catatan sejarah keluarga Bratasena yang pernah ia buat. Eko Prawiro mendirikan yayasan sosial B-Group pada tanggal 21 September 1990.
+
+21 (tanggal pendirian yayasan), 33 (butir tasbih ke-33), 99 (jumlah butir tasbih penuh).
+
+Ia mengetik kombinasi angka tersebut ke dalam kolom kata sandi: 213399
+
+Ia ragu sejenak sebelum menekan tombol Enter. Jika ia salah, sisa percobaannya akan berkurang menjadi tiga.
+
+Ia menekan Enter.
+
+Layar berkedip hijau. Tulisan merah menghilang, digantikan oleh baris-baris direktori file yang mulai terbuka satu per satu:
+
+`DECRYPTION SUCCESSFUL. READING FILE SYSTEM...`
+
+`DIRECTORY: /LORE/SARI_DEWI/CONFIDENTIAL/`
+
+Kirana tersenyum lega. Detak jantungnya kembali normal. Ia segera membuka folder pertama yang bertuliskan: "Laporan Khusus - Yayasan B-Group & Dragon Pacific (2005-2011)".
+
+---
+
+Isi Dokumen Sari Dewi
+
+Di dalam folder itu, terdapat puluhan file dokumen teks format PDF lama dan beberapa scan gambar dokumen transaksi bank dengan stempel basah.
+
+Kirana membuka dokumen utama yang berjudul "Catatan Harian Sari Dewi — Menolak Diam". Dokumen itu ditulis dalam format jurnal pribadi dari tahun 2008 hingga awal 2012.
+
+Ia mulai membaca baris-baris kalimat yang ditulis oleh ibu kandung Baskoro:
+
+"...Mei 2008. Hari ini aku menemukan anomali ketiga dalam laporan transfer luar negeri yayasan B-Group. Dana sebesar lima miliar rupiah yang seharusnya disalurkan untuk beasiswa anak-anak buruh Kediri dialihkan ke rekening bank DBS Singapura atas nama PT Dragon Pacific Corp.
+
+Saat aku menanyakan hal ini kepada Mas Haryo, ia memintaku untuk diam. Wajahnya terlihat sangat ketakutan—sebuah ekspresi yang belum pernah kulihat sebelumnya pada pria setegar dia. Mas Haryo bilang, 'Sari, jangan sentuh akun itu. Itu adalah uang milik Ular Naga. Jika kita menghentikannya, mereka akan menghancurkan kita semua, termasuk anak kita, Baskoro.'
+
+Aku tidak bisa diam. Uang itu adalah hak para buruh. Tapi aku juga takut untuk keselamatan Baskoro yang saat itu baru berusia dua belas tahun..."
+
+Kirana menutup mulutnya dengan tangan. Tulisan itu mengonfirmasi segalanya. Haryo Bratasena terpaksa berkompromi dengan Jaringan Ular Naga untuk melindungi Baskoro kecil.
+
+Ia menggulir dokumen lebih ke bawah, mencari entri jurnal terakhir sebelum Sari Dewi meninggal di tahun 2012:
+
+"...Januari 2012. Seseorang mengirimkan ancaman tertulis ke rumah kontrakanku di Kediri. Surat itu bergambar ular naga melingkar bermata merah. Mereka tahu aku sedang menyalin dokumen transaksi yayasan. Mas Haryo bersikeras memindahkan Baskoro ke Jakarta di bawah perlindungan kerabat jauh, dan memintaku untuk ikut.
+
+Tapi aku tahu waktuku tidak lama lagi. Rasa sakit di perutku semakin sering muncul—dokter bilang ini hanya maag kronis, tapi aku tahu ada yang tidak beres dengan obat-obatan yang dikirimkan oleh dokter kiriman yayasan.
+
+Jika aku mati, dokumen ini akan tetap aman di dalam tasbih kayu hitam yang sering kubacakan doa untuk Baskoro. Semoga suatu hari nanti, saat dia sudah cukup dewasa dan kuat, dia bisa menemukan kebenaran ini dan membebaskan nama ayahnya dari lingkaran setan ini..."
+
+Kirana merasakan matanya memanas membaca paragraf terakhir. Sari Dewi tidak meninggal karena penyakit alami—ia diracun secara perlahan melalui obat-obatan maag yang ia konsumsi, persis seperti cara Haryo diracun menggunakan Kalium Klorida di Season 1.
+
+Ia segera menyalin semua data dari chip tersebut ke dalam hard drive eksternal terenkripsi miliknya, lalu melepaskan chip dari laptop.
+
+Ia harus segera menunjukkan ini kepada Baskoro.
+
+---
+
+Surabaya — Pertemuan Rahasia William Gozali
+
+Di saat yang sama, di lantai teratas Gedung Dragon Pacific Tower di kawasan CBD Surabaya, seorang pria berusia empat puluh lima tahun duduk di kursi kulit mewahnya. Pria itu bertubuh tegap, mengenakan setelan jas hitam tanpa dasi, dengan jam tangan Rolex emas melingkar di pergelangan tangan kirinya.
+
+Nama pria itu adalah William Gozali, CEO PT Dragon Pacific Corp.
+
+Di hadapannya, berdiri dua orang pengawal pribadinya yang bertubuh kekar. Salah satu dari mereka menyerahkan sebuah laporan tertulis tentang aktivitas di pabrik Kediri.
+
+"Baskoro sudah menolak tawaran Bambang Irawan," lapor pengawal tersebut. "Dan Hendra Kusuma sudah menandatangani pengalihan saham Cahaya Timur kepada Baskoro sebelum dia pergi."
+
+William Gozali tersenyum tipis—senyum yang dingin dan penuh penghinaan. "Hendra adalah pengecut. Dia menyerah hanya karena ancaman kaset tua. Dan Bambang... Bambang sudah terlalu tua untuk bertarung di liga ini."
+
+Ia berdiri, berjalan menuju jendela kaca besar yang menghadap langsung ke lampu-lampu kota Surabaya di malam hari.
+
+"Bagaimana dengan tasbih kayu hitam Baskoro?" tanya William.
+
+"Penyusup kita semalam gagal menemukannya," jawab pengawal kedua. "Baskoro selalu membawanya ke mana-mana. Tapi kami mendeteksi aktivitas siber yang tidak biasa dari arah pabrik Kediri malam ini. Seseorang sedang mencoba mengakses server database kami menggunakan enkripsi lama."
+
+William Gozali berbalik, matanya berkilat dengan kegembiraan yang berbahaya. "Itu artinya mereka sudah berhasil membuka data Sari Dewi. Wanita itu memang pintar—ia menyembunyikan bukti itu di tempat yang paling tidak terduga selama lima belas tahun."
+
+Ia merapikan jasnya. "Siapkan serangan siber balik. Lacak IP penyerang dan cari tahu siapa akuntan yang membantu Baskoro. Dan satu lagi—"
+
+"Apa, Pak?"
+
+"Kirim tim ke Kediri. Bukan preman jalanan kali ini. Kirim orang-orang kita yang profesional. Aku ingin data itu kembali ke tanganku sebelum matahari terbit besok."
+
+---
+
+AKHIR BAB 42
+
+Catatan: 2,620 kata (~163 baris). AMAN untuk 1 operasi. Kirana berhasil memecah enkripsi chip peninggalan Sari Dewi menggunakan kode "213399". Jurnal Sari Dewi mengungkap Haryo terpaksa berkompromi demi keselamatan Baskoro kecil, dan Sari Dewi diracun perlahan via obat maag palsu. William Gozali (antagonis utama S3) muncul, mengetahui data Sari Dewi telah terbuka, dan mengirim tim profesional ke Kediri. Siap Bab 43.

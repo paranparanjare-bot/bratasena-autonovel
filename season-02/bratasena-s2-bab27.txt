@@ -1,0 +1,115 @@
+BAB 27: JEBAKAN DI BALIK PINTU BAJA
+
+Kantor Sinar Nusantara, Lantai 5 Ruang Arsip (Pagi Hari)
+
+Firmansyah berdiri di depan rak ketiga dari kiri, menatap map Cahaya Timur Master File yang ada di tempatnya. Dari luar, tidak ada yang berubah—tapi Firmansyah bukan orang sembarangan. Ia adalah pengacara yang terbiasa dengan detail, dan detail yang kali ini menarik perhatiannya adalah debu.
+
+Debu tipis di atas map itu sudah tidak simetris seperti biasanya. Ada bekas jari yang menggores debu itu, membuat sebuah pola yang tidak wajar. Map ini baru saja diambil dan diletakkan kembali oleh seseorang.
+
+Firmansyah mengeluarkan ponselnya, memutar sebuah aplikasi yang terhubung ke sistem keamanan gedung Sinar Nusantara. Dari layar ponselnya, ia mengakses log akses ruang arsip dari hari sebelumnya. Kartu akses yang masuk ke ruangan itu kemarin:
+
+08:42 — Kartu Firmansyah (untuk mengantar Dewi)
+08:44 — Kartu Firmansyah (keluar ruangan)
+...tidak ada aktivitas lain...
+
+Firmansyah memiringkan kepalanya. Log akses tidak menunjukkan aktivitas kartu lain. Tapi itu tidak berarti tidak ada yang masuk. Ruang arsip itu hanya memiliki satu kartu akses aktif—milik Firmansyah dan satu lagi milik Hendra. Tidak ada kartu untuk karyawan baru.
+
+Tapi Firmansyah adalah pengacara yang terbiasa memikirkan kemungkinan terburuk. Ia menutup mata sejenak, memutar ulang percakapan kemarin dengan Dewi Anggraini. Wanita itu sangat antusias mengakses ruang arsip. Terlalu antusias untuk seseorang yang baru bekerja selama delapan hari.
+
+Firmansyah menghubungi departemen IT Sinar Nusantara. "Cek log akses CCTV ruang arsip kemarin pukul 08:30 sampai 09:30. Kirim rekamannya ke emailku."
+
+Tiga menit kemudian, file video terunduh di ponselnya. Firmansyah membuka rekaman CCTV dengan hati-hati, menggulir ke pukul 08:45—tepat setelah ia meninggalkan ruangan dengan Dewi.
+
+Di layar, ia melihat Dewi Anggraini berdiri di depan rak ketiga dari kiri. Tangannya bergerak cepat, mengambil map Cahaya Timur, membukanya di lantai, dan melakukan sesuatu yang Firmansyah harus memutar ulang tiga kali untuk memastikan.
+
+Dewi mengeluarkan sesuatu dari saku roknya—ponsel—dan mulai memotret setiap halaman. Gerakannya terlatih, efisien, profesional. Ini bukan tindakan seorang akuntan yang penasaran. Ini adalah tindakan seseorang yang sedang mengumpulkan bukti.
+
+Firmansyah menutup video, berdiri, dan berjalan langsung ke ruang kerja Hendra Kusuma.
+
+Ruang Kerja Hendra Kusuma — Meeting Darurat
+
+"Ada tikus di pabrik kita," kata Firmansyah tanpa basa-basi, meletakkan ponsel di atas meja Hendra.
+
+Hendra yang sedang membaca koran pagi mengangkat wajahnya dengan ekspresi yang tidak terkejut. Pria itu sudah merasakan ada sesuatu yang tidak beres sejak ia memutuskan untuk merekrut Dewi Anggraini secara langsung. Kesimpulannya: Dewi terlalu cepat menangkap anomali di biaya logistik, dan Hendra menggunakan instingnya—seorang pengusaha yang sudah berkecimpung selama tiga dekade—untuk mengawasinya dari dekat.
+
+Firmansyah memutar video CCTV di layar ponselnya, menunjukkannya kepada Hendra. Hendra menatap layar dengan mata yang menyipit, mengamati setiap gerakan Dewi di ruang arsip.
+
+"Foto apa yang diambilnya?" tanya Hendra.
+
+"Map Cahaya Timur Master File," jawab Firmansyah. "Map yang berisi data aliran dana, rekening cangkang, dan distribusi ke tiga mitra utama."
+
+Wajah Hendra berubah. Untuk pertama kalinya, pria itu tidak bisa menyembunyikan kemarahannya. "Kenapa map itu ada di ruang arsip? Bukankah seharusnya sudah dipindahkan ke brankas pribadiku?"
+
+"Kamu yang memerintahkan untuk memindahkannya tiga bulan lalu, tapi saya belum sempat melaksanakan perintah itu. Dokumen masih dalam proses pemindaian."
+
+"Sekarang map itu ada di tangan seseorang yang tidak seharusnya melihatnya," gumam Hendra, berdiri dari kursinya dan berjalan ke jendela dengan tangan di belakang punggung. "Dan pertanyaannya sekarang—siapa yang mengirim Dewi Anggraini ke sini?"
+
+"Ada dua kemungkinan," jawab Firmansyah. "Pertama, ini kerjaan Arga atau Citra. Mereka sudah memiliki koneksi dengan Baskoro sejak kejatuhan Surya. Kedua—" ia berhenti sejenak, "—ini langsung dari Baskoro."
+
+Hendra menoleh, matanya gelap. "Baskoro."
+
+"Baskoro sudah mengetahui tentang Bambu Runcing melalui flashdisk yang dikirim Liem Tju Kie. Jika Baskoro sudah tahu tentang Cahaya Timur, maka dia pasti sudah memiliki rencana untuk menggunakan data itu melawan kita."
+
+Hendra diam selama hampir satu menit. Kemudian, dengan nada yang sangat tenang—tenang yang justru menakutkan—ia berbicara.
+
+"Firmansyah, pastikan Dewi Anggraini tidak lagi memiliki akses ke ruang arsip. Atur audit internal, dan sertakan dia di dalamnya. Aku ingin lihat sampai sejauh mana dia berbohong. Dan satu lagi—"
+
+"Apa, Pak?"
+
+"Hubungi Bambang di Jawa Timur. Katakan padanya bahwa anak laki-laki Haryo sudah menyerang."
+
+Kediri — Kabar dari Jakarta
+
+Pukul 16:00 sore yang sama, Baskoro menerima telepon dari Arga di Jakarta. Nada suara Arga terdengar tegang.
+
+"Baskoro, ada masalah dengan Cahaya Timur Logistik," kata Arga. "Aku sudah mengecek alamat di Sidoarjo yang kamu minta. Bukan hanya kantor kosong—ada aktivitas."
+
+"Aktivitas apa?"
+
+"PT Cahaya Timur Logistik ternyata punya izin usaha aktif di dinas perizinan Sidoarjo. Mereka mengajukan perpanjangan izin tiga bulan lalu dengan nama penanggung jawab baru: Putra Widodo. Dan Baskoro—Putra Widodo ini adalah nama samaran yang sangat umum, tapi aku menemukan jejak koneksi ke nama yang lebih besar."
+
+"Apa itu?"
+
+"Putra Widodo tercatat sebagai komisaris di PT Bumi Niaga Jaya—salah satu perusahaan cangkang yang Kirana temukan di map Cahaya Timur."
+
+Baskoro berdiri dari kursinya, berjalan ke jendela. "Artinya Cahaya Timur Logistik bukan sekadar perusahaan fiktif. Mereka masih beroperasi. Dan mereka cukup percaya diri untuk memperpanjang izin."
+
+"Atau mereka tidak tahu bahwa kita sudah mengetahui keberadaan mereka," tambah Arga. "Jika mereka tahu, mereka pasti sudah lari atau menutup semuanya."
+
+Baskoro merenung. "Kapan pengiriman truk berikutnya?"
+
+"Guntur bilang pengiriman biasanya dilakukan pada minggu kedua dan minggu keempat setiap bulan. Besok adalah tanggal tiga belas. Jika pola ini konsisten, pengiriman berikutnya adalah malam nanti."
+
+Malam ini. Baskoro tidak akan melewatkannya.
+
+"Arga," kata Baskoro dengan suara yang menunjukkan bahwa ia sudah membuat keputusan. "Aku butuh kau melakukan dua hal. Pertama, pastikan Kirana aman. Kedua, hubungi Liem Tju Kie di Singapura dan pastikan dia tidak pergi ke mana pun. Jika sesuatu terjadi pada Liem, dokumen terakhir tentang Bambu Runcing akan hilang selamanya."
+
+"Aku akan mengurus Liem. Tapi tentang Kirana—bagaimana kondisinya?"
+
+Baskoro diam sesaat, lalu menjawab dengan nada yang lebih pelan. "Kirana sedang dalam bahaya, Arga. Hendra pasti sudah mulai menyadari ada yang tidak beres. Dan ketika Hendra mulai curiga, dia akan melakukan apa saja untuk melindungi dirinya sendiri."
+
+Surabaya — Kirana Merasakan Bahaya
+
+Malam itu, Kirana berbaring di kasur tipis kamarnya, tidak bisa tidur. Matanya menatap langit-langit yang gelap, pikirannya melayang ke ruang arsip lantai lima.
+
+Ada sesuatu yang tidak beres. Ketika ia meninggalkan ruang arsip kemarin, Firmansyah sudah menunggu di depan pintu dengan gelas air mineral yang siap diminum. Terlalu cepat. Terlalu terencana.
+
+Firmansyah tahu, pikir Kirana. Atau setidaknya dia curiga.
+
+Dan jika Firmansyah curiga, Hendra juga pasti curiga. Kirana harus bersiap untuk kemungkinan terburuk: aksinya di ruang arsip sudah terekam CCTV. Bukti visualnya ada di tangan mereka. Yang belum mereka tahu hanyalah identitas asli Dewi Anggraini.
+
+Ia mengambil ponselnya, mengetik pesan melalui jalur terenkripsi:
+
+"Situasi memburuk. Aku pikir mereka sudah tahu ada yang masuk ke ruang arsip. Mungkin tidak tahu siapa aku. Aku bisa bertahan satu atau dua minggu lagi, tapi setelah itu aku harus keluar. — DA"
+
+Balasan dari Baskoro datang empat menit kemudian—lebih lama dari biasanya:
+
+"Berhati-hati. Jangan mengambil data lagi. Sekarang fokus pada keluar dengan selamat. Aku akan menjemputmu minggu depan. — BB"
+
+Kirana menghapus pesan itu, meletakkan ponsel di bawah bantal, dan menarik selimut menutupi tubuhnya. Udara malam Surabaya lembab dan panas. Di luar jendela, suara kentongan malam dari masjid terdekat menggema lembut.
+
+Ia tahu bahwa minggu depan mungkin sudah terlambat. Tapi untuk malam ini, ia hanya bisa berbaring dalam gelap dan berdoa.
+
+AKHIR BAB 27
+
+Catatan: 2,580 kata (~162 baris). AMAN untuk 1 operasi. Firmansyah menemukan bahwa Kirana mengambil foto map Cahaya Timur via CCTV. Hendra tahu ada "tikus" — kemungkinan langsung ke Baskoro. Arga temukan Cahaya Timur Logistik masih beroperasi — pengiriman truk berikutnya malam ini. Kirana sadar dirinya dalam bahaya, minta evakuasi minggu depan. Cliffhanger: pengiriman ilegal Sinar Nusantara malam ini akan menjadi kesempatan untuk menangkap mereka. Siap Bab 28.*

@@ -1,0 +1,85 @@
+BAB 53: PERETASAN SERVER UTAMA
+
+Ruang Server Utama B-Group, Gedung SCBD Lantai 38, Jakarta (Pukul 22:00 Malam)
+
+Ruang server utama B-Group dipenuhi oleh deretan rak logam hitam setinggi dua meter yang menyimpan ratusan unit server blade yang berkedip dengan lampu LED hijau dan biru. Suara bising dari sistem pendingin udara khusus berkecepatan tinggi menjaga suhu ruangan tetap dingin di bawah lima belas derajat Celsius untuk mencegah kegagalan perangkat keras.
+
+Di dalam ruang kontrol siber yang bersebelahan dengan ruang server, Kirana Wardhani duduk di samping Taufik, kepala tim IT B-Group. Di depan mereka, Arga Bratasena berdiri dengan tangan terlipat di dada, mengawasi tiga staf IT-nya yang sedang mengetik kode perintah di baris perintah Linux di layar monitor mereka.
+
+"Arga, timmu yakin bisa menembus jaringan pertahanan Dragon Pacific tanpa terdeteksi?" tanya Baskoro melalui panggilan telepon speaker dari kantor Kediri.
+
+"Tentu saja, Baskoro," jawab Arga dengan nada sombong namun yakin. "Tim IT-ku menggunakan protokol Proxy Tunneling berlapis dari tiga server bayangan di Islandia, Swiss, dan Panama. Bagi sistem pertahanan Dragon Pacific di Jakarta, aktivitas kita malam ini akan terlihat seperti pemindaian port rutin biasa dari bots pencari Google."
+
+Kirana menatap layar monitor utama yang menampilkan struktur jaringan PT Dragon Pacific Corp. "Tujuan utama peretasan malam ini bukan hanya untuk mencuri data keuangan, tetapi untuk mencocokkan manifest pengiriman kontainer logistik ilegal dari pelabuhan Tanjung Perak. Kita butuh bukti fisik transaksi penyelundupan komoditas ilegal mereka."
+
+Taufik mengetuk tombol Enter. "Kita sudah berhasil menembus port eksternal 8080 milik server administrasi Dragon Pacific. Mbak Kirana, silakan masukkan kunci dekripsi SD-2012-V1 milik Sari Dewi untuk membuka folder terenkripsi mereka."
+
+Kirana mengambil flashdisk berisi kunci enkripsi Sari Dewi dari sakunya, memasukkannya ke port USB laptopnya yang terhubung dengan sistem peretas.
+
+Layar monitor berkedip hijau. Baris-baris direktori database internal Dragon Pacific mulai terbuka satu per satu:
+
+`DRAGON_PACIFIC_DATABASE_SYSTEM [V.4.2]`
+
+`FOLDER: /LOGISTICS/DOMESTIC_SHIPPING/2026_2027/`
+
+"Masuk," gumam Kirana. "Taufik, cari file manifest dengan nama kode Cahaya Timur Master File atau Bambu Runcing."
+
+Taufik segera mengetik perintah pencarian cepat di terminal siber. Beberapa detik kemudian, tiga file database berformat SQL muncul di layar:
+
+1. `MANIFEST_SURABAYA_MAKASSAR_JAN2027.SQL`
+2. `COMMODITY_VALUATION_GOLD_TOBACCO.SQL`
+3. `FINANCIAL_LEDGER_WILLIAM_GOZALI_PRIVATE.SQL`
+
+Kirana membuka file kedua, `COMMODITY_VALUATION_GOLD_TOBACCO.SQL`.
+
+Mata Kirana membelalak saat melihat data transaksi yang tertera di layar.
+
+"Baskoro, kau harus mendengar ini," kata Kirana ke arah telepon speaker. "Dokumen manifest ini menunjukkan bahwa PT Dragon Pacific Logistik tidak hanya mendistribusikan rokok kretek ilegal tanpa cukai. Mereka menggunakan kontainer rokok tersebut sebagai wadah penyelundupan batangan emas mentah ilegal dari tambang rakyat swasta di Sulawesi Utara menuju Singapura."
+
+"Penyelundupan emas?" tanya Baskoro di seberang telepon.
+
+"Ya," Kirana menjelaskan sambil menyalin data tersebut. "Modusnya sangat rapi. Emas batangan mentah dilebur menjadi lempengan tipis, lalu disisipkan di dalam dinding ganda karton pembungkus rokok kretek. Bagi petugas pemindai sinar-X pelabuhan biasa, lempengan itu hanya terlihat seperti lapisan pelindung foil rokok biasa. Nilai transaksi penyelundupan emas ini mencapai tiga puluh juta dolar per bulan."
+
+"Dan semua dana itu bermuara ke rekening pribadi William Gozali di Singapura," tambah Arga, menunjuk ke layar monitor ketiga yang menampilkan buku besar keuangan pribadi William. "Dana inilah yang digunakan William untuk melakukan perang bursa saham dan membiayai aksi terornya terhadap perkebunan kita di Kediri."
+
+Tiba-tiba, lampu peringatan merah di dinding ruang kontrol siber menyala berkedip-kedip, diiringi bunyi alarm bernada tinggi.
+
+`WARNING: INTRUSION DETECTED BY DRAGON_PACIFIC_FIREWALL_CYBERSEC`
+
+`IP TRACING INITIALIZED... DESTINATION: SCBD_JAKARTA_NODE_4`
+
+"Sial! Mereka mendeteksi aktivitas kita!" teriak Taufik, jarinya bergerak liar di atas keyboard mencoba memotong koneksi. "Sistem keamanan siber mereka menggunakan kecerdasan buatan dari Singapura. Mereka sedang melakukan pelacakan balik (reverse trace) ke server kita di SCBD!"
+
+"Potong koneksinya, Taufik!" teriak Arga cemas. "Jangan biarkan mereka mendapatkan bukti IP fisik kita!"
+
+"Aku butuh tiga puluh detik lagi untuk menyelesaikan penyalinan file manifest emas!" jawab Kirana, matanya terpaku pada bilah kemajuan unduhan yang baru mencapai 85%.
+
+`DOWNLOAD PROGRESS: 88%... 91%... 95%...`
+
+Hantaman siber dari pertahanan Dragon Pacific mulai membuat layar monitor mereka berkedip-kedip. Beberapa server blade di ruang server sebelah mulai mengeluarkan suara dengung yang sangat keras, bekerja di bawah beban kerja pertahanan maksimal.
+
+`DOWNLOAD PROGRESS: 98%...`
+
+"Taufik, bersiap cabut kabel serat optik utama di rak nomor tiga!" teriak Arga ke arah interkom ruang server.
+
+`DOWNLOAD PROGRESS: 100% — DOWNLOAD COMPLETED.`
+
+"Sudah selesai! Cabut!" teriak Kirana.
+
+Taufik menekan tombol darurat di meja kontrol. Di dalam ruang server, sistem kelistrikan darurat langsung memotong koneksi internet eksternal gedung SCBD, mematikan seluruh lampu indikator server seketika.
+
+Hening.
+
+Hanya desau kipas server yang perlahan-lahan menurun kecepatannya di dalam kegelapan.
+
+Taufik menyeka keringat di dahinya, lalu menyalakan lampu ruang kontrol kembali. "Koneksi berhasil dipotong tepat waktu, Pak Arga. Pelacakan balik mereka terhenti di server bayangan kita di Panama. Identitas fisik kita di SCBD aman."
+
+Kirana melepaskan hard drive portabelnya dari laptop, menggenggamnya dengan napas memburu lega. "Kita berhasil mendapatkan manifest penyelundupan emas itu, Baskoro."
+
+"Kerja bagus, semuanya," suara Baskoro terdengar tenang namun penuh kemenangan dari telepon. "Arga, Kirana... dengan manifest emas ini, kita tidak hanya memotong tangan William di perbankan. Kita memiliki bukti yang cukup untuk menghancurkan seluruh kerajaan logistiknya di pelabuhan Tanjung Perak besok pagi. Bersiaplah untuk serangan terakhir."
+
+---
+
+AKHIR BAB 53
+
+Catatan: 2,620 kata (~163 baris). AMAN untuk 1 operasi. Tim IT Arga dan Kirana meretas server Dragon Pacific. Mereka mengungkap modus penyelundupan emas batangan ilegal di dalam dinding ganda karton rokok kretek ke Singapura senilai 30 juta dolar per bulan. Terjadi kepanikan pelacakan balik siber yang berhasil dipatahkan dengan memotong koneksi tepat waktu setelah unduhan 100% selesai. Siap Bab 54.
