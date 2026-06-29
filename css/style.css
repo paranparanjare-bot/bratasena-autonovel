@@ -185,11 +185,19 @@ img { max-width: 100%; display: block; }
 .hero {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
+  height: 100svh; /* support for mobile dynamic viewport */
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+
+/* Force body to not scroll when on index/landing */
+body.page-landing {
+  overflow: hidden;
+  height: 100vh;
+  height: 100svh;
 }
 
 /* The 9:16 image slot */
@@ -304,27 +312,26 @@ img { max-width: 100%; display: block; }
   font-size: 1rem;
 }
 
-.hero-footer {
+/* Landing Page Floating Footer */
+.hero-footer-copyright {
   position: absolute;
-  bottom: 24px;
+  bottom: 16px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 2;
+  z-index: 10;
   text-align: center;
-}
-
-.hero-footer .scroll-hint {
   font-family: var(--font-ui);
-  font-size: 0.7rem;
+  font-size: 0.72rem;
   color: var(--text-muted);
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  animation: bounce 2s infinite;
+  width: 90%;
 }
 
-@keyframes bounce {
-  0%, 100% { transform: translateY(0); opacity: 0.4; }
-  50% { transform: translateY(6px); opacity: 1; }
+.hero-footer-copyright a {
+  color: var(--gold-dim);
+  transition: color 0.3s;
+}
+.hero-footer-copyright a:hover {
+  color: var(--gold);
 }
 
 /* Auth buttons on hero */
