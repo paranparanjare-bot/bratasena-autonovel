@@ -313,37 +313,24 @@ body.page-landing {
 }
 
 /* ===== BUTTONS OVERRIDES FOR LANDING (GLASSMORPHISM) ===== */
-.page-landing .btn {
-  background: rgba(255, 255, 255, 0.05);
-  color: #ffffff;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  font-weight: 400;
+.page-landing .hero-actions .btn-outline {
+  background: rgba(255, 255, 255, 0.07) !important;
+  color: #ffffff !important;
+  border: 1.5px solid rgba(255, 255, 255, 0.4) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 4px;
+  font-weight: 500;
   transition: all 0.3s ease;
 }
 
-.page-landing .btn:hover {
-  background: rgba(255, 255, 255, 0.15);
-  border-color: #ffffff;
-  color: #ffffff;
+.page-landing .hero-actions .btn-outline:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+  border-color: rgba(255, 255, 255, 0.8) !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.15) !important;
   transform: translateY(-1px);
-  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
-}
-
-.page-landing .btn-outline {
-  background: rgba(255, 255, 255, 0.03);
-  color: rgba(255, 255, 255, 0.85);
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-}
-
-.page-landing .btn-outline:hover {
-  background: rgba(255, 255, 255, 0.15);
-  color: #ffffff;
-  border-color: #ffffff;
 }
 
 .page-landing .btn-ghost {
