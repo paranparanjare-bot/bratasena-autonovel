@@ -13,15 +13,51 @@
   "chapters": {
     "1": {
       "file": "season-01/ikatan-cinta-s1-bab01.txt",
-      "title": "Aroma Kertas Tua"
+      "title": "BAB 1"
     },
     "2": {
       "file": "season-01/ikatan-cinta-s1-bab02.txt",
-      "title": "Bait-Bait di Kitab Kuning"
+      "title": "BAB 2"
     },
     "3": {
       "file": "season-01/ikatan-cinta-s1-bab03.txt",
-      "title": "Memantaskan Diri"
+      "title": "BAB 3"
+    },
+    "4": {
+      "file": "season-01/ikatan-cinta-s1-bab04.txt",
+      "title": "BAB 4"
+    },
+    "5": {
+      "file": "season-01/ikatan-cinta-s1-bab05.txt",
+      "title": "BAB 5"
+    },
+    "6": {
+      "file": "season-01/ikatan-cinta-s1-bab06.txt",
+      "title": "BAB 6"
+    },
+    "7": {
+      "file": "season-01/ikatan-cinta-s1-bab07.txt",
+      "title": "BAB 7"
+    },
+    "8": {
+      "file": "season-01/ikatan-cinta-s1-bab08.txt",
+      "title": "BAB 8"
+    },
+    "9": {
+      "file": "season-01/ikatan-cinta-s1-bab09.txt",
+      "title": "BAB 9"
+    },
+    "10": {
+      "file": "season-01/ikatan-cinta-s1-bab10.txt",
+      "title": "BAB 10"
+    },
+    "11": {
+      "file": "season-01/ikatan-cinta-s1-bab11.txt",
+      "title": "BAB 11"
+    },
+    "12": {
+      "file": "season-01/ikatan-cinta-s1-bab12.txt",
+      "title": "BAB 12"
     }
   }
 }

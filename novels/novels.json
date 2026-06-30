@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-06-30T02:29:50.943535",
+  "generated": "2026-06-30T04:21:24.511716",
   "novels": [
     {
       "id": "bratasena",
@@ -532,7 +532,7 @@
       "description": "Kisah cinta dan takdir di Kota Kediri. Yusuf, seorang pemuda yatim piatu yang bekerja menjaga toko kitab 'Al-Barokah' milik Haji Usman, diam-diam mengagumi Khadijah, putri Kiai Ahmad Ridwan yang terpandang dan luhur budinya. Di antara tumpukan kitab kuning dan bait-bait doa kepasrahan, Yusuf berusaha memantaskan diri di hadapan Sang Pencipta demi meluluhkan hati sang ulama dan menepis segala prasangka tentang derajat sosial.",
       "genre": "Romance / Religi / Drama",
       "cover": "assets/ikatan-cinta/cover.webp",
-      "totalChapters": 3,
+      "totalChapters": 12,
       "seasons": [
         {
           "season": "season-01",
@@ -542,21 +542,75 @@
           "chapters": [
             {
               "num": 1,
-              "title": "Aroma Kertas Tua",
+              "title": "BAB 1",
               "file": "ikatan-cinta-s1-bab01.txt",
               "path": "ikatan-cinta/season-01/ikatan-cinta-s1-bab01.txt"
             },
             {
               "num": 2,
-              "title": "Bait-Bait di Kitab Kuning",
+              "title": "BAB 2",
               "file": "ikatan-cinta-s1-bab02.txt",
               "path": "ikatan-cinta/season-01/ikatan-cinta-s1-bab02.txt"
             },
             {
               "num": 3,
-              "title": "Memantaskan Diri",
+              "title": "BAB 3",
               "file": "ikatan-cinta-s1-bab03.txt",
               "path": "ikatan-cinta/season-01/ikatan-cinta-s1-bab03.txt"
+            },
+            {
+              "num": 4,
+              "title": "BAB 4",
+              "file": "ikatan-cinta-s1-bab04.txt",
+              "path": "ikatan-cinta/season-01/ikatan-cinta-s1-bab04.txt"
+            },
+            {
+              "num": 5,
+              "title": "BAB 5",
+              "file": "ikatan-cinta-s1-bab05.txt",
+              "path": "ikatan-cinta/season-01/ikatan-cinta-s1-bab05.txt"
+            },
+            {
+              "num": 6,
+              "title": "BAB 6",
+              "file": "ikatan-cinta-s1-bab06.txt",
+              "path": "ikatan-cinta/season-01/ikatan-cinta-s1-bab06.txt"
+            },
+            {
+              "num": 7,
+              "title": "BAB 7",
+              "file": "ikatan-cinta-s1-bab07.txt",
+              "path": "ikatan-cinta/season-01/ikatan-cinta-s1-bab07.txt"
+            },
+            {
+              "num": 8,
+              "title": "BAB 8",
+              "file": "ikatan-cinta-s1-bab08.txt",
+              "path": "ikatan-cinta/season-01/ikatan-cinta-s1-bab08.txt"
+            },
+            {
+              "num": 9,
+              "title": "BAB 9",
+              "file": "ikatan-cinta-s1-bab09.txt",
+              "path": "ikatan-cinta/season-01/ikatan-cinta-s1-bab09.txt"
+            },
+            {
+              "num": 10,
+              "title": "BAB 10",
+              "file": "ikatan-cinta-s1-bab10.txt",
+              "path": "ikatan-cinta/season-01/ikatan-cinta-s1-bab10.txt"
+            },
+            {
+              "num": 11,
+              "title": "BAB 11",
+              "file": "ikatan-cinta-s1-bab11.txt",
+              "path": "ikatan-cinta/season-01/ikatan-cinta-s1-bab11.txt"
+            },
+            {
+              "num": 12,
+              "title": "BAB 12",
+              "file": "ikatan-cinta-s1-bab12.txt",
+              "path": "ikatan-cinta/season-01/ikatan-cinta-s1-bab12.txt"
             }
           ]
         }
