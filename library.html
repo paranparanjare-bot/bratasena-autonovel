@@ -14,7 +14,13 @@
 <div class="modal-overlay" id="auth-modal">
   <div class="modal">
     <button class="modal-close" onclick="App.closeModal('auth-modal')">&times;</button>
-    <div class="modal-title" id="auth-modal-title">Masuk</div>
+    
+    <!-- Maskot motjo ramah di modal Auth -->
+    <div style="display:flex; justify-content:center; margin-top: 10px; margin-bottom:14px;">
+      <img src="assets/motjo-mascot.webp" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; border: 1.5px solid var(--gold-dim); box-shadow: 0 4px 15px rgba(0,0,0,0.5);" alt="motjo Mascot">
+    </div>
+
+    <div class="modal-title" id="auth-modal-title" style="margin-top:0;">Masuk</div>
     <div class="modal-subtitle" id="auth-modal-subtitle">Silakan masuk untuk melanjutkan</div>
     <div class="modal-device-warning">
       <span><strong>Akun tersimpan di perangkat ini saja.</strong> Data tidak disinkronkan ke server. Jika berganti HP, Anda harus daftar ulang.</span>

@@ -15,9 +15,7 @@
       left: 0;
       right: 0;
       z-index: 99;
-      background: rgba(10, 10, 15, 0.92);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
+      background: #0a0a0f; /* 100% solid dark to prevent text bleeding behind */
       border-top: 1px solid var(--border);
       box-sizing: border-box;
       padding: 8px 12px;
@@ -25,6 +23,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      box-shadow: 0 -4px 20px rgba(0,0,0,0.8);
     }
     
     .reader-bottom-actions {
@@ -81,7 +80,7 @@
 
     /* Content area adjustment */
     .reader-content {
-      padding: 60px 16px 90px 16px !important;
+      padding: 60px 16px 120px 16px !important; /* Forces 120px padding bottom */
       max-width: var(--max-read);
       margin: 0 auto;
     }
