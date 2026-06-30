@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-06-30T01:48:36.805599",
+  "generated": "2026-06-30T02:22:20.301196",
   "novels": [
     {
       "id": "bratasena",
@@ -520,6 +520,52 @@
               "title": "BAB 80: PINTU MENUJU TOKYO",
               "file": "bratasena-s4-bab080.txt",
               "path": "bratasena/season-04/bratasena-s4-bab080.txt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ikatan-cinta",
+      "title": "Ikatan Cinta",
+      "author": "ekosetyobudi",
+      "description": "Kisah cinta dan takdir di Kota Kediri. Yusuf, seorang pemuda yatim piatu yang bekerja menjaga toko kitab 'Al-Barokah' milik Haji Usman, diam-diam mengagumi Khadijah, putri Kiai Ahmad Ridwan yang terpandang dan luhur budinya. Di antara tumpukan kitab kuning dan bait-bait doa kepasrahan, Yusuf berusaha memantaskan diri di hadapan Sang Pencipta demi meluluhkan hati sang ulama dan menepis segala prasangka tentang derajat sosial.",
+      "genre": "Romance / Religi / Drama",
+      "cover": "assets/motjo-mascot.webp",
+      "totalChapters": 3,
+      "seasons": [
+        {
+          "season": "season-01",
+          "name": "Ikatan Cinta",
+          "path": "season-01",
+          "cover": "assets/motjo-mascot.webp",
+          "chapters": [
+            {
+              "num": 1,
+              "title": {
+                "file": "season-01/ikatan-cinta-s1-bab01.txt",
+                "title": "Aroma Kertas Tua"
+              },
+              "file": "ikatan-cinta-s1-bab01.txt",
+              "path": "ikatan-cinta/season-01/ikatan-cinta-s1-bab01.txt"
+            },
+            {
+              "num": 2,
+              "title": {
+                "file": "season-01/ikatan-cinta-s1-bab02.txt",
+                "title": "Bait-Bait di Kitab Kuning"
+              },
+              "file": "ikatan-cinta-s1-bab02.txt",
+              "path": "ikatan-cinta/season-01/ikatan-cinta-s1-bab02.txt"
+            },
+            {
+              "num": 3,
+              "title": {
+                "file": "season-01/ikatan-cinta-s1-bab03.txt",
+                "title": "Memantaskan Diri"
+              },
+              "file": "ikatan-cinta-s1-bab03.txt",
+              "path": "ikatan-cinta/season-01/ikatan-cinta-s1-bab03.txt"
             }
           ]
         }
