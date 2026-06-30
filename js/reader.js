@@ -123,8 +123,9 @@ const Reader = (() => {
         // Update header
         const chapNumEl = document.getElementById('reader-chapter-num');
         if (chapNumEl) chapNumEl.textContent = `Bab ${ch.num}`;
-        document.getElementById('reader-chapter-title').textContent = ch.title || '';
-        document.title = `${ch.title || 'Bab ' + ch.num} — ${novelInfo.title}`;
+        const formattedTitle = `BAB ${ch.num}: ${(ch.title || '').toUpperCase()}`;
+        document.getElementById('reader-chapter-title').textContent = formattedTitle;
+        document.title = `${formattedTitle} — ${novelInfo.title}`;
 
         // Update button states
         document.getElementById('prev-chapter').disabled = index <= 0;

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'motjo-library-v2';
+const CACHE_NAME = 'motjo-library-v2.0.2';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -12,11 +12,7 @@ const ASSETS_TO_CACHE = [
   './js/reader.js',
   './manifest.json',
   './assets/hero-study.jpg',
-  './assets/motjo-mascot.webp',
-  './assets/bratasena/season-01.webp',
-  './assets/bratasena/season-02.webp',
-  './assets/bratasena/season-03.webp',
-  './assets/bratasena/season-04.webp'
+  './assets/motjo-mascot.webp'
 ];
 
 // Install Event
