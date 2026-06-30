@@ -3,12 +3,12 @@
   "author": "ekosetyobudi",
   "description": "Kisah cinta dan takdir di Kota Kediri. Yusuf, seorang pemuda yatim piatu yang bekerja menjaga toko kitab 'Al-Barokah' milik Haji Usman, diam-diam mengagumi Khadijah, putri Kiai Ahmad Ridwan yang terpandang dan luhur budinya. Di antara tumpukan kitab kuning dan bait-bait doa kepasrahan, Yusuf berusaha memantaskan diri di hadapan Sang Pencipta demi meluluhkan hati sang ulama dan menepis segala prasangka tentang derajat sosial.",
   "genre": "Romance / Religi / Drama",
-  "cover": "assets/motjo-mascot.webp",
+  "cover": "assets/ikatan-cinta/cover.webp",
   "seasons": {
     "season-01": "Ikatan Cinta"
   },
   "season_covers": {
-    "season-01": "assets/motjo-mascot.webp"
+    "season-01": "assets/ikatan-cinta/cover.webp"
   },
   "chapters": {
     "1": {

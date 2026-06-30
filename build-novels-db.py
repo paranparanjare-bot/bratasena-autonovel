@@ -101,7 +101,14 @@ def scan_novel(novel_dir):
         for cf in chapter_files:
             num = extract_chapter_num(cf.name)
             # Try to get title from info.json chapters mapping, fallback to reading file
-            title = info.get('chapters', {}).get(str(num), None)
+            title_entry = info.get('chapters', {}).get(str(num), None)
+            if isinstance(title_entry, dict):
+                title = title_entry.get('title', '')
+            elif isinstance(title_entry, str):
+                title = title_entry
+            else:
+                title = ''
+
             if not title:
                 title = extract_title(cf)
             chapters.append({

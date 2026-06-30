@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-06-30T02:22:53.174116",
+  "generated": "2026-06-30T02:29:50.943535",
   "novels": [
     {
       "id": "bratasena",
@@ -531,39 +531,30 @@
       "author": "ekosetyobudi",
       "description": "Kisah cinta dan takdir di Kota Kediri. Yusuf, seorang pemuda yatim piatu yang bekerja menjaga toko kitab 'Al-Barokah' milik Haji Usman, diam-diam mengagumi Khadijah, putri Kiai Ahmad Ridwan yang terpandang dan luhur budinya. Di antara tumpukan kitab kuning dan bait-bait doa kepasrahan, Yusuf berusaha memantaskan diri di hadapan Sang Pencipta demi meluluhkan hati sang ulama dan menepis segala prasangka tentang derajat sosial.",
       "genre": "Romance / Religi / Drama",
-      "cover": "assets/motjo-mascot.webp",
+      "cover": "assets/ikatan-cinta/cover.webp",
       "totalChapters": 3,
       "seasons": [
         {
           "season": "season-01",
           "name": "Ikatan Cinta",
           "path": "season-01",
-          "cover": "assets/motjo-mascot.webp",
+          "cover": "assets/ikatan-cinta/cover.webp",
           "chapters": [
             {
               "num": 1,
-              "title": {
-                "file": "season-01/ikatan-cinta-s1-bab01.txt",
-                "title": "Aroma Kertas Tua"
-              },
+              "title": "Aroma Kertas Tua",
               "file": "ikatan-cinta-s1-bab01.txt",
               "path": "ikatan-cinta/season-01/ikatan-cinta-s1-bab01.txt"
             },
             {
               "num": 2,
-              "title": {
-                "file": "season-01/ikatan-cinta-s1-bab02.txt",
-                "title": "Bait-Bait di Kitab Kuning"
-              },
+              "title": "Bait-Bait di Kitab Kuning",
               "file": "ikatan-cinta-s1-bab02.txt",
               "path": "ikatan-cinta/season-01/ikatan-cinta-s1-bab02.txt"
             },
             {
               "num": 3,
-              "title": {
-                "file": "season-01/ikatan-cinta-s1-bab03.txt",
-                "title": "Memantaskan Diri"
-              },
+              "title": "Memantaskan Diri",
               "file": "ikatan-cinta-s1-bab03.txt",
               "path": "ikatan-cinta/season-01/ikatan-cinta-s1-bab03.txt"
             }
@@ -588,91 +579,61 @@
           "chapters": [
             {
               "num": 1,
-              "title": {
-                "file": "season-01/kopi-lereng-arjuno-s1-bab01.txt",
-                "title": "Gula Aren yang Meleleh"
-              },
+              "title": "Gula Aren yang Meleleh",
               "file": "kopi-lereng-arjuno-s1-bab01.txt",
               "path": "kopi-lereng-arjuno/season-01/kopi-lereng-arjuno-s1-bab01.txt"
             },
             {
               "num": 2,
-              "title": {
-                "file": "season-01/kopi-lereng-arjuno-s1-bab02.txt",
-                "title": "Kepulangan Tanpa Hasil"
-              },
+              "title": "Kepulangan Tanpa Hasil",
               "file": "kopi-lereng-arjuno-s1-bab02.txt",
               "path": "kopi-lereng-arjuno/season-01/kopi-lereng-arjuno-s1-bab02.txt"
             },
             {
               "num": 3,
-              "title": {
-                "file": "season-01/kopi-lereng-arjuno-s1-bab03.txt",
-                "title": "Pertemuan di Warung Tua"
-              },
+              "title": "Pertemuan di Warung Tua",
               "file": "kopi-lereng-arjuno-s1-bab03.txt",
               "path": "kopi-lereng-arjuno/season-01/kopi-lereng-arjuno-s1-bab03.txt"
             },
             {
               "num": 4,
-              "title": {
-                "file": "season-01/kopi-lereng-arjuno-s1-bab04.txt",
-                "title": "Kemarau di Lereng Gunung"
-              },
+              "title": "Kemarau di Lereng Gunung",
               "file": "kopi-lereng-arjuno-s1-bab04.txt",
               "path": "kopi-lereng-arjuno/season-01/kopi-lereng-arjuno-s1-bab04.txt"
             },
             {
               "num": 5,
-              "title": {
-                "file": "season-01/kopi-lereng-arjuno-s1-bab05.txt",
-                "title": "Harapan di Tengah Beban"
-              },
+              "title": "Harapan di Tengah Beban",
               "file": "kopi-lereng-arjuno-s1-bab05.txt",
               "path": "kopi-lereng-arjuno/season-01/kopi-lereng-arjuno-s1-bab05.txt"
             },
             {
               "num": 6,
-              "title": {
-                "file": "season-01/kopi-lereng-arjuno-s1-bab06.txt",
-                "title": "Ujian Ketulusan Hati"
-              },
+              "title": "Ujian Ketulusan Hati",
               "file": "kopi-lereng-arjuno-s1-bab06.txt",
               "path": "kopi-lereng-arjuno/season-01/kopi-lereng-arjuno-s1-bab06.txt"
             },
             {
               "num": 7,
-              "title": {
-                "file": "season-01/kopi-lereng-arjuno-s1-bab07.txt",
-                "title": "Buku Biru Mbah Ning"
-              },
+              "title": "Buku Biru Mbah Ning",
               "file": "kopi-lereng-arjuno-s1-bab07.txt",
               "path": "kopi-lereng-arjuno/season-01/kopi-lereng-arjuno-s1-bab07.txt"
             },
             {
               "num": 8,
-              "title": {
-                "file": "season-01/kopi-lereng-arjuno-s1-bab08.txt",
-                "title": "Tawaran di Meja Kopi"
-              },
+              "title": "Tawaran di Meja Kopi",
               "file": "kopi-lereng-arjuno-s1-bab08.txt",
               "path": "kopi-lereng-arjuno/season-01/kopi-lereng-arjuno-s1-bab08.txt"
             },
             {
               "num": 9,
-              "title": {
-                "file": "season-01/kopi-lereng-arjuno-s1-bab09.txt",
-                "title": "Bara di Ruang Tengah"
-              },
+              "title": "Bara di Ruang Tengah",
               "file": "kopi-lereng-arjuno-s1-bab09.txt",
               "path": "kopi-lereng-arjuno/season-01/kopi-lereng-arjuno-s1-bab09.txt"
             },
             {
               "num": 10,
-              "title": {
-                "file": "season-01/kopi-lereng-arjuno-s1-bab10.txt",
-                "title": "Abu Masa Lalu dan Alasan Bertahan"
-              },
+              "title": "Abu Masa Lalu dan Alasan Bertahan",
               "file": "kopi-lereng-arjuno-s1-bab10.txt",
               "path": "kopi-lereng-arjuno/season-01/kopi-lereng-arjuno-s1-bab10.txt"
             }
