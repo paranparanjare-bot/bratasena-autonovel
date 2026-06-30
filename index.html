@@ -39,31 +39,38 @@
     }
 
     /* ===== LANDING PAGE COVER SLIDESHOW & GLOW 3D ===== */
+    /* ===== LANDING PAGE COVER SLIDESHOW & GLOW 3D ===== */
     .hero-cover-slideshow {
       position: relative;
-      width: 120px;
+      width: 190px; /* Larger size to fill empty space */
       aspect-ratio: 2/3;
-      border-radius: 6px;
-      margin-bottom: 24px;
+      margin-bottom: 30px;
       background: rgba(0, 0, 0, 0.4);
       
       /* 3D Glow: pendaran cahaya keemasan halus di belakang */
       box-shadow: 
-        0 10px 25px rgba(0, 0, 0, 0.6),
-        0 0 25px rgba(199, 168, 76, 0.25),
-        0 0 50px rgba(199, 168, 76, 0.1);
+        0 15px 35px rgba(0, 0, 0, 0.7),
+        0 0 35px rgba(199, 168, 76, 0.3),
+        0 0 70px rgba(199, 168, 76, 0.15);
       border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 8px;
       overflow: hidden;
       transition: transform 0.5s ease;
       z-index: 5;
     }
 
+    @media (min-width: 500px) {
+      .hero-cover-slideshow {
+        width: 220px;
+      }
+    }
+
     .hero-cover-slideshow:hover {
       transform: scale(1.04) translateY(-2px);
       box-shadow: 
-        0 15px 30px rgba(0, 0, 0, 0.7),
-        0 0 35px rgba(199, 168, 76, 0.45),
-        0 0 70px rgba(199, 168, 76, 0.2);
+        0 20px 40px rgba(0, 0, 0, 0.8),
+        0 0 45px rgba(199, 168, 76, 0.5),
+        0 0 90px rgba(199, 168, 76, 0.25);
     }
 
     .hero-cover-slideshow .slide {
@@ -74,7 +81,7 @@
       height: 100%;
       object-fit: cover;
       opacity: 0;
-      transition: opacity 1.2s ease-in-out; /* Smooth crossfade */
+      transition: opacity 1.0s ease-in-out; /* Exactly 1s transition duration */
       z-index: 1;
     }
 
@@ -227,7 +234,7 @@
         slides[currentIdx].classList.remove('active');
         currentIdx = (currentIdx + 1) % slides.length;
         slides[currentIdx].classList.add('active');
-      }, 3000); // 3 seconds interval
+      }, 4000); // 4 seconds total interval (1s fade transition + 3s display time)
     }
   });
 </script>
