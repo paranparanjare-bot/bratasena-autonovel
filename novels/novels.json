@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-06-30T01:05:27.729087",
+  "generated": "2026-06-30T01:44:21.566487",
   "novels": [
     {
       "id": "bratasena",
@@ -522,6 +522,24 @@
               "path": "bratasena/season-04/bratasena-s4-bab080.txt"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "kopi-lereng-arjuno",
+      "title": "Kopi Lereng Arjuno",
+      "author": "ekosetyobudi",
+      "description": "Sebuah cerita tentang beban, doa, lan tresna sing tuwuh alon-alon. Di kaki Gunung Arjuno, Malang, Jawa Timur, di tengah musim kemarau panjang tahun 2025, Pak Sarman (60) mengelola warung kopi tuanya dengan kebijaksanaan mantan nelayan. Putranya, Fauzan (29), memikul beban berat keluarga sebagai buruh pabrik kopi demi membiayai kuliah kedokteran gigi adiknya, Rina (22), yang diam-diam merasa bersalah karena terus menyusahkan kakaknya. Di tengah perjuangan itu, hadir Nadira (27), buruh migran yang baru pulang dari Malaysia dengan mimpi dan harapan baru. Lereng Arjuno menjadi saksi bisu perjuangan mereka menjalani pahit manisnya takdir hidup.",
+      "genre": "Drama / Slice of Life / Romance",
+      "cover": "assets/kopi-lereng-arjuno/cover.webp",
+      "totalChapters": 0,
+      "seasons": [
+        {
+          "season": "season-01",
+          "name": "Kopi Lereng Arjuno",
+          "path": "season-01",
+          "cover": "assets/kopi-lereng-arjuno/cover.webp",
+          "chapters": []
         }
       ]
     },
