@@ -15,7 +15,7 @@
       left: 0;
       right: 0;
       z-index: 99;
-      background: #0a0a0f; /* 100% solid dark to prevent text bleeding behind */
+      background: var(--bg-secondary); /* Dynamic themed background */
       border-top: 1px solid var(--border);
       box-sizing: border-box;
       padding: 8px 12px;
@@ -23,7 +23,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0 -4px 20px rgba(0,0,0,0.8);
+      box-shadow: 0 -4px 20px rgba(0,0,0,0.4);
     }
     
     .reader-bottom-actions {
@@ -55,9 +55,7 @@
       left: 0;
       right: 0;
       height: 46px;
-      background: rgba(10, 10, 15, 0.85);
-      backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
+      background: var(--bg-secondary); /* Dynamic themed background */
       border-bottom: 1px solid var(--border);
       z-index: 90;
       display: flex;
