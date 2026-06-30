@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-06-30T00:06:00.353887",
+  "generated": "2026-06-30T00:46:37.143126",
   "novels": [
     {
       "id": "bratasena",
@@ -520,6 +520,85 @@
               "title": "BAB 80: PINTU MENUJU TOKYO",
               "file": "bratasena-s4-bab080.txt",
               "path": "bratasena/season-04/bratasena-s4-bab080.txt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prasangka-cinta",
+      "title": "Prasangka & Cinta di Ujung Timur",
+      "author": "ekosetyobudi",
+      "description": "Di ujung timur Jawa, di antara debur ombak Selat Bali dan dinginnya lereng Gunung Ijen, Alya berjuang mempertahankan koperasi kopi warisan keluarganya dari jeratan utang. Ketika Faris—pemuda kaya yang dingin dan keturunan keluarga pesohor—hadir membawa proposal yang mencurigakan, Alya langsung membangun dinding prasangka tinggi-tinggi. Namun di saat yang sama, Raka Mahendra—pengusaha kota yang tampan dan membumi—datang sebagai penolong yang seolah terlalu sempurna. Di antara laut dan doa, mungkinkah prasangka menuntun pada kehancuran, ataukah ada kebenaran lain yang tersembunyi di balik dinginnya tatapan Faris?",
+      "genre": "Drama Religi / Romance",
+      "cover": null,
+      "totalChapters": 10,
+      "seasons": [
+        {
+          "season": "season-01",
+          "name": "Ujung Timur",
+          "path": "season-01",
+          "cover": "assets/prasangka-cinta/cover.webp",
+          "chapters": [
+            {
+              "num": 1,
+              "title": "",
+              "file": "prasangka-cinta-s1-bab001.txt",
+              "path": "prasangka-cinta/season-01/prasangka-cinta-s1-bab001.txt"
+            },
+            {
+              "num": 2,
+              "title": "",
+              "file": "prasangka-cinta-s1-bab002.txt",
+              "path": "prasangka-cinta/season-01/prasangka-cinta-s1-bab002.txt"
+            },
+            {
+              "num": 3,
+              "title": "\"Bapak tidak apa-apa?\" tanya Alya, nada suaranya memancarkan kekhawatiran yang tak bisa disembunyikan.",
+              "file": "prasangka-cinta-s1-bab003.txt",
+              "path": "prasangka-cinta/season-01/prasangka-cinta-s1-bab003.txt"
+            },
+            {
+              "num": 4,
+              "title": "",
+              "file": "prasangka-cinta-s1-bab004.txt",
+              "path": "prasangka-cinta/season-01/prasangka-cinta-s1-bab004.txt"
+            },
+            {
+              "num": 5,
+              "title": "\"Iya, sebentar lagi, Dek,\" sahut Alya, mengulas senyum tipis.",
+              "file": "prasangka-cinta-s1-bab005.txt",
+              "path": "prasangka-cinta/season-01/prasangka-cinta-s1-bab005.txt"
+            },
+            {
+              "num": 6,
+              "title": "",
+              "file": "prasangka-cinta-s1-bab006.txt",
+              "path": "prasangka-cinta/season-01/prasangka-cinta-s1-bab006.txt"
+            },
+            {
+              "num": 7,
+              "title": "",
+              "file": "prasangka-cinta-s1-bab007.txt",
+              "path": "prasangka-cinta/season-01/prasangka-cinta-s1-bab007.txt"
+            },
+            {
+              "num": 8,
+              "title": "",
+              "file": "prasangka-cinta-s1-bab008.txt",
+              "path": "prasangka-cinta/season-01/prasangka-cinta-s1-bab008.txt"
+            },
+            {
+              "num": 9,
+              "title": "",
+              "file": "prasangka-cinta-s1-bab009.txt",
+              "path": "prasangka-cinta/season-01/prasangka-cinta-s1-bab009.txt"
+            },
+            {
+              "num": 10,
+              "title": "",
+              "file": "prasangka-cinta-s1-bab010.txt",
+              "path": "prasangka-cinta/season-01/prasangka-cinta-s1-bab010.txt"
             }
           ]
         }
