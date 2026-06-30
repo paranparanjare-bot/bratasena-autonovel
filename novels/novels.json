@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-06-30T01:00:54.818512",
+  "generated": "2026-06-30T01:05:27.729087",
   "novels": [
     {
       "id": "bratasena",
@@ -8,7 +8,7 @@
       "author": "paranparanjare-bot",
       "description": "Baskoro Haryo Bratasena, pengacara kepailitan di Jakarta, terseret ke pusaran perebutan kerajaan rokok keluarga setelah kematian ayahnya. Dari Kediri hingga Singapura—drama bisnis, keluarga, dan thriller korporat.",
       "genre": "Drama Bisnis, Thriller Korporat",
-      "cover": null,
+      "cover": "assets/bratasena/season-01.webp",
       "totalChapters": 80,
       "seasons": [
         {
@@ -531,7 +531,7 @@
       "author": "ekosetyobudi",
       "description": "Di ujung timur Jawa, di antara debur ombak Selat Bali dan dinginnya lereng Gunung Ijen, Alya berjuang mempertahankan koperasi kopi warisan keluarganya dari jeratan utang. Ketika Faris—pemuda kaya yang dingin dan keturunan keluarga pesohor—hadir membawa proposal yang mencurigakan, Alya langsung membangun dinding prasangka tinggi-tinggi. Namun di saat yang sama, Raka Mahendra—pengusaha kota yang tampan dan membumi—datang sebagai penolong yang seolah terlalu sempurna. Di antara laut dan doa, mungkinkah prasangka menuntun pada kehancuran, ataukah ada kebenaran lain yang tersembunyi di balik dinginnya tatapan Faris?",
       "genre": "Drama Religi / Romance",
-      "cover": null,
+      "cover": "assets/prasangka-cinta/cover.webp",
       "totalChapters": 10,
       "seasons": [
         {
@@ -542,61 +542,61 @@
           "chapters": [
             {
               "num": 1,
-              "title": "",
+              "title": "Aroma Kopi dan Debur Pesisir",
               "file": "prasangka-cinta-s1-bab001.txt",
               "path": "prasangka-cinta/season-01/prasangka-cinta-s1-bab001.txt"
             },
             {
               "num": 2,
-              "title": "",
+              "title": "Bayang-Bayang di Kota Tua",
               "file": "prasangka-cinta-s1-bab002.txt",
               "path": "prasangka-cinta/season-01/prasangka-cinta-s1-bab002.txt"
             },
             {
               "num": 3,
-              "title": "\"Bapak tidak apa-apa?\" tanya Alya, nada suaranya memancarkan kekhawatiran yang tak bisa disembunyikan.",
+              "title": "Simfoni di Kaki Ijen",
               "file": "prasangka-cinta-s1-bab003.txt",
               "path": "prasangka-cinta/season-01/prasangka-cinta-s1-bab003.txt"
             },
             {
               "num": 4,
-              "title": "",
+              "title": "Manis yang Menyesatkan",
               "file": "prasangka-cinta-s1-bab004.txt",
               "path": "prasangka-cinta/season-01/prasangka-cinta-s1-bab004.txt"
             },
             {
               "num": 5,
-              "title": "\"Iya, sebentar lagi, Dek,\" sahut Alya, mengulas senyum tipis.",
+              "title": "Di Bawah Langit Sritanjung",
               "file": "prasangka-cinta-s1-bab005.txt",
               "path": "prasangka-cinta/season-01/prasangka-cinta-s1-bab005.txt"
             },
             {
               "num": 6,
-              "title": "",
+              "title": "Retak dalam Diam",
               "file": "prasangka-cinta-s1-bab006.txt",
               "path": "prasangka-cinta/season-01/prasangka-cinta-s1-bab006.txt"
             },
             {
               "num": 7,
-              "title": "",
+              "title": "Topeng yang Mulai Terkelupas",
               "file": "prasangka-cinta-s1-bab007.txt",
               "path": "prasangka-cinta/season-01/prasangka-cinta-s1-bab007.txt"
             },
             {
               "num": 8,
-              "title": "",
+              "title": "Badai di Pesisir Timur",
               "file": "prasangka-cinta-s1-bab008.txt",
               "path": "prasangka-cinta/season-01/prasangka-cinta-s1-bab008.txt"
             },
             {
               "num": 9,
-              "title": "",
+              "title": "Tabir yang Terbelah",
               "file": "prasangka-cinta-s1-bab009.txt",
               "path": "prasangka-cinta/season-01/prasangka-cinta-s1-bab009.txt"
             },
             {
               "num": 10,
-              "title": "",
+              "title": "Fajar di Ujung Timur",
               "file": "prasangka-cinta-s1-bab010.txt",
               "path": "prasangka-cinta/season-01/prasangka-cinta-s1-bab010.txt"
             }

@@ -9,5 +9,17 @@
   },
   "season_covers": {
     "season-01": "assets/prasangka-cinta/cover.webp"
+  },
+  "chapters": {
+    "1": "Aroma Kopi dan Debur Pesisir",
+    "2": "Bayang-Bayang di Kota Tua",
+    "3": "Simfoni di Kaki Ijen",
+    "4": "Manis yang Menyesatkan",
+    "5": "Di Bawah Langit Sritanjung",
+    "6": "Retak dalam Diam",
+    "7": "Topeng yang Mulai Terkelupas",
+    "8": "Badai di Pesisir Timur",
+    "9": "Tabir yang Terbelah",
+    "10": "Fajar di Ujung Timur"
   }
 }

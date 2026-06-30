@@ -100,7 +100,10 @@ def scan_novel(novel_dir):
         chapters = []
         for cf in chapter_files:
             num = extract_chapter_num(cf.name)
-            title = extract_title(cf)
+            # Try to get title from info.json chapters mapping, fallback to reading file
+            title = info.get('chapters', {}).get(str(num), None)
+            if not title:
+                title = extract_title(cf)
             chapters.append({
                 "num": num,
                 "title": title,
@@ -122,13 +125,19 @@ def scan_novel(novel_dir):
             "chapters": chapters
         })
 
-    # Cover image
-    cover = None
-    for ext in ('.jpg', '.jpeg', '.png', '.webp'):
-        candidate = novel_dir / f'cover{ext}'
-        if candidate.exists():
-            cover = f"novels/{novel_id}/cover{ext}"
-            break
+    # Cover image logic:
+    # 1. Look in info.json 'cover' field
+    # 2. Look for cover.jpg/.png etc. in folder
+    # 3. Fallback to the cover of the first season
+    cover = info.get('cover', None)
+    if not cover:
+        for ext in ('.jpg', '.jpeg', '.png', '.webp'):
+            candidate = novel_dir / f'cover{ext}'
+            if candidate.exists():
+                cover = f"novels/{novel_id}/cover{ext}"
+                break
+    if not cover and seasons:
+        cover = seasons[0].get('cover', None)
 
     return {
         "id": novel_id,

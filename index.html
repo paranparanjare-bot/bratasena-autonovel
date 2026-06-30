@@ -234,7 +234,8 @@
       const base = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/'));
       const resp = await fetch(`${base}/novels/novels.json?cb=${Date.now()}`);
       if (!resp.ok) throw new Error();
-      const novels = await resp.json();
+      const data = await resp.json();
+      const novels = data.novels || [];
       
       let covers = [];
       novels.forEach(novel => {
