@@ -10,5 +10,46 @@
   "season_covers": {
     "season-01": "assets/kopi-lereng-arjuno/cover.webp"
   },
-  "chapters": {}
+  "chapters": {
+    "1": {
+      "file": "season-01/kopi-lereng-arjuno-s1-bab01.txt",
+      "title": "Gula Aren yang Meleleh"
+    },
+    "2": {
+      "file": "season-01/kopi-lereng-arjuno-s1-bab02.txt",
+      "title": "Kepulangan Tanpa Hasil"
+    },
+    "3": {
+      "file": "season-01/kopi-lereng-arjuno-s1-bab03.txt",
+      "title": "Pertemuan di Warung Tua"
+    },
+    "4": {
+      "file": "season-01/kopi-lereng-arjuno-s1-bab04.txt",
+      "title": "Kemarau di Lereng Gunung"
+    },
+    "5": {
+      "file": "season-01/kopi-lereng-arjuno-s1-bab05.txt",
+      "title": "Harapan di Tengah Beban"
+    },
+    "6": {
+      "file": "season-01/kopi-lereng-arjuno-s1-bab06.txt",
+      "title": "Ujian Ketulusan Hati"
+    },
+    "7": {
+      "file": "season-01/kopi-lereng-arjuno-s1-bab07.txt",
+      "title": "Buku Biru Mbah Ning"
+    },
+    "8": {
+      "file": "season-01/kopi-lereng-arjuno-s1-bab08.txt",
+      "title": "Tawaran di Meja Kopi"
+    },
+    "9": {
+      "file": "season-01/kopi-lereng-arjuno-s1-bab09.txt",
+      "title": "Bara di Ruang Tengah"
+    },
+    "10": {
+      "file": "season-01/kopi-lereng-arjuno-s1-bab10.txt",
+      "title": "Abu Masa Lalu dan Alasan Bertahan"
+    }
+  }
 }
