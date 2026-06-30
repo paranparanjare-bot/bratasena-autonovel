@@ -53,6 +53,15 @@ Dokumen ini mencatat keputusan dan kesepakatan teknis yang telah disetujui bersa
     *   Workers mengirim pesan otomatis ke Telegram Admin saat ada user mengirim konfirmasi transfer.
     *   Pesan berisi: Nama User, Paket Koin, Nama Pengirim Transfer, dan Lampiran Foto Bukti Transfer.
     *   Disediakan dua tombol interaktif di bawah pesan Telegram: `[ Setujui ]` dan `[ Tolak ]`.
-*   **Persetujuan via Telegram:**
+* **Persetujuan via Telegram:**
     *   Mengklik `[ Setujui ]` langsung mengeksekusi penambahan koin ke user, membagikan komisi referal 3 tingkat, dan mengubah status database menjadi `Berhasil`.
     *   Mengklik `[ Tolak ]` membatalkan klaim dan menandai transaksi gagal.
+
+---
+
+## 6. Rencana Fase Rilis (Roadmap) yang Disepakati
+
+Untuk menjaga fokus pembangunan agar tetap efisien dan tidak membebani pembuat konten, fitur marginalia dan koleksi ephemera visual dilewati (dihapus). Fokus dialihkan ke:
+
+*   **Fase 1 (Sistem Inti):** Login, Workers/D1, API Gateway Content Hiding, Sistem Koin, Referal 3 Tingkat, dan Integrasi Bot Telegram (OTP + Verifikasi QRIS/E-Wallet).
+*   **Fase 2 (Imersif & Promosi):** Ambient Soundscape (audio latar belakang esensial yang estetik dan dapat di-mute) dan Generator Kutipan Gambar Estetik untuk promosi via Status WhatsApp (Misi Koin).
